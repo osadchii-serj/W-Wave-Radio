@@ -1,0 +1,41 @@
+/* 1024 */
+@media (max-width: 1024px) {
+  .header {
+    height: 200px;
+  }
+
+  .container-fluid {
+    padding: 0 100px;
+  }
+
+  .logo {
+    width: 112px;
+    height: 14px;
+  }
+
+}
+
+/* 768 */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0 114px;
+  }
+}
+
+/* 320 */
+@media (max-width: 320px) {
+  .header {
+    height: 140px;
+  }
+
+  .container-fluid {
+    padding: 0 32px;
+  }
+
+  .logo {
+    width: 87px;
+    height: 10px;
+  }
+}
+
+
