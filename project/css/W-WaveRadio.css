@@ -1,21 +1,49 @@
 @font-face {
-  font-family: 'MullerThinDEMO';
-  src: local('MullerThinDEMO'),
-    url("../fonts/MullerThinDEMO.woff2") format('woff2'),
-    url("../fonts/MullerThinDEMO.woff") format('woff');
-  font-weight: 400;
+  font-family: 'MullerMedium';
+  src: url('MullerMedium.eot');
+  src: local('Muller Medium'), local('MullerMedium'),
+    url('../fonts/MullerMedium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MullerMedium.woff2') format('woff2'),
+    url('../fonts/MullerMedium.woff') format('woff'),
+    url('../fonts/MullerMedium.ttf') format('truetype');
+  font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MullerExtraBoldDEMO';
-  src: local('MullerExtraBoldDEMO'),
-    url("../fonts/MullerExtraBoldDEMO.woff2") format('woff2'),
-    url("../fonts/MullerExtraBoldDEMO.woff") format('woff');
-  font-weight: 500;
+  font-family: 'MullerRegular';
+  src: url('MullerRegular.eot');
+  src: local('Muller Regular'), local('MullerRegular'),
+    url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MullerRegular.woff2') format('woff2'),
+    url('../fonts/MullerRegular.woff') format('woff'),
+    url('../fonts/MullerRegular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
-  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MullerLight';
+  src: url('MullerLight.eot');
+  src: local('Muller Light'), local('MullerLight'),
+    url('../fonts/MullerLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MullerLight.woff2') format('woff2'),
+    url('../fonts/MullerLight.woff') format('woff'),
+    url('../fonts/MullerLight.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerBold';
+  src: url('MullerBold.eot');
+  src: local('Muller Bold'), local('MullerBold'),
+    url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MullerBold.woff2') format('woff2'),
+    url('../fonts/MullerBold.woff') format('woff'),
+    url('../fonts/MullerBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 html {
@@ -50,26 +78,28 @@ p {
   margin: 0;
 }
 
+/* container-fluid */
+.container-fluid {
+  max-width: 1920px;
+}
+
 /* header */
 .header {
   width: 100%;
   height: 140px;
-  background-color: #fff;
+  background-color: antiquewhite;
 }
 
-.container-fluid {
-  max-width: 1920px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0 405px;
-  background-color: #D2D5DD;
+.header__top-box {
+  width: 100%;
+  height: 80px;
+  background-color: aquamarine;
+  border-bottom: 1px solid #D2D5DD;
 }
 
-.row-height {
-  height: 100%;
-}
-
-.logo {
-  width: 160px;
-  height: 20px;
+.header__bottom-box {
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+  border-bottom: 1px solid #D2D5DD;
 }
