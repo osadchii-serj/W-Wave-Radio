@@ -87,4 +87,15 @@ p {
 /* container */
 .container {
   max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 405px;
+}
+
+.logo-wrapper {
+  padding-top: 30px;
+}
+
+.logo {
+  width: 160px;
+  height: 20px;
 }
