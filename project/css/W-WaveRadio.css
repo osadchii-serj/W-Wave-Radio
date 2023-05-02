@@ -78,3 +78,13 @@ p {
   margin: 0;
 }
 
+/* header */
+.header {
+  position: relative;
+  width: 100%;
+}
+
+/* container */
+.container {
+  max-width: 1920px;
+}
