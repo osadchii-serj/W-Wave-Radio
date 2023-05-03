@@ -42,6 +42,33 @@
   .logo-wrapper {
     left: 114px;
   }
+
+  .burger {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+
+  .burger__line {
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    top: 0;
+    left: -1px;
+    background-color: #6D31EE;
+  }
+
+  .burger__line:nth-child(2) {
+    transform: translateY(11px);
+  }
+
+  .burger__line:nth-child(3) {
+    transform: translateY(21px);
+  }
 }
 
 
@@ -83,5 +110,10 @@
   .header__bottom-section::before {
     bottom: 45px;
   }
+
+  .burger__line {
+    left: 0;
+  }
+
 }
 

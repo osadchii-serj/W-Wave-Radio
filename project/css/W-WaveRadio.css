@@ -103,6 +103,9 @@ p {
 }
 
 .header__top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   min-height: 80px;
 }
@@ -130,4 +133,8 @@ p {
   background-color: #D2D5DD;
   bottom: 60px;
   left: 0;
+}
+
+.burger {
+  display: none;
 }
