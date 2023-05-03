@@ -1,7 +1,7 @@
 /* 1024 */
 @media (max-width: 1024px) {
   .header {
-    min-height: 60px;
+    padding-top: 60px;
   }
 
   .header::after {
@@ -20,7 +20,6 @@
   }
 
   .logo-wrapper {
-    position: absolute;
     top: 23px;
     left: 100px;
     padding: 0;
@@ -48,8 +47,9 @@
 
 /* 320 */
 @media (max-width: 320px) {
+
   .header {
-    min-height: 55px;
+    padding-top: 55px;
   }
 
   .header::after {
@@ -68,6 +68,20 @@
   .logo {
     width: 88px;
     height: 11px;
+  }
+
+  .header__top-section {
+    width: 100%;
+    min-height: 50px;
+  }
+
+  .header__bottom-section {
+    width: 100%;
+    min-height: 45px;
+  }
+
+  .header__bottom-section::before {
+    bottom: 45px;
   }
 }
 
