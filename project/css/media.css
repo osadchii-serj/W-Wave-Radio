@@ -224,6 +224,16 @@
     margin-right: 0;
   }
 
+  .header__top-item:nth-child(4) {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .header__top-item:nth-child(5) {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
   .header__top-item:last-child {
     margin-right: 55px;
   }
@@ -246,6 +256,63 @@
 
   .header__top-search-btn {
     margin-right: 0;
+  }
+
+  .header__bottom-nav {
+    position: absolute;
+    top: 392px;
+    left: -320px;
+    width: 320px;
+    padding: 30px 50px 0 32px;
+    background-color: #fff;
+    border-bottom: 1px solid #D2D5DD;
+    transition: transform .5s ease-in-out;
+    z-index: 2;
+  }
+
+  .header.open-menu .header__bottom-nav {
+    transform: translateX(100%);
+  }
+
+  .header__bottom-menu {
+    align-items: start;
+  }
+
+  .header__bottom-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .header__bottom-item:nth-child(4) {
+    margin-right: 40px;
+  }
+
+  .header__bottom-item:nth-child(6) {
+    margin-right: 35px;
+  }
+
+  .one-bottom-item {
+    order: 1;
+  }
+
+  .two-bottom-item {
+    order: 3;
+  }
+
+  .three-bottom-item {
+    order: 5;
+  }
+
+  .four-bottom-item {
+    order: 2;
+  }
+
+  .five-bottom-item {
+    order: 4;
+  }
+
+  .six-bottom-item {
+    order: 6;
   }
 
 }
