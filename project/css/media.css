@@ -35,6 +35,23 @@
     padding-left: 0;
     padding-right: 33px;
   }
+
+  .header__bottom-menu {
+    padding-right: 35px;
+  }
+
+  .header__bottom-play-list {
+    min-width: 150px;
+    padding-left: 10px;
+  }
+
+  .header__bottom-play-list-content {
+    padding-right: 24px;
+  }
+
+  .header__bottom-play-list:last-child {
+    display: none;
+  }
 }
 
 
