@@ -138,3 +138,62 @@ p {
 .burger {
   display: none;
 }
+
+.header__top-nav {
+  width: 100%;
+  min-height: inherit;
+}
+
+.header__top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 240px;
+  padding-right: 80px;
+  justify-content: space-between;
+}
+
+.header__top-link {
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #121723;
+}
+
+.header__top-search-btn {
+  padding: 0;
+  padding-top: 5px;
+  margin-right: 26px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header__top-log-in-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 43px;
+  gap: 4px;
+  width: 104px;
+  height: 40px;
+  border: 2px solid #121723;
+  border-radius: 77px;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'MullerMedium';
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #121723;
+}
+
+.header__top-nav-decoration {
+  display: none;
+}
