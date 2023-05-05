@@ -254,7 +254,8 @@ p {
   background-color: #D2D5DD;
 }
 
-.header__bottom-play-list:last-child {
+.header__bottom-play-list-age {
+  position: relative;
   min-width: 100px;
 }
 
@@ -298,4 +299,8 @@ p {
   font-size: 16px;
   line-height: 16px;
   color: #121723;
+}
+
+.accordion-320 {
+  display: none;
 }
