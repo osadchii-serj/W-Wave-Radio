@@ -33,7 +33,7 @@
 
   .header__top-menu {
     padding-left: 0;
-    padding-right: 33px;
+    padding-right: 10px;
   }
 
   .header__bottom-menu {
@@ -459,6 +459,23 @@
   .header.open-accordion .accordion-320__btn-icon{
     transform: rotate(-90deg);
     transition: transform .5s ease-in-out;
+  }
+
+  .form__search-input {
+    padding-right: 0px;
+  }
+
+  .header.open-search .form__search-input {
+    width: 200px;
+  }
+
+  .form__open-btn {
+    top: -2px;
+    right: 6px;
+  }
+
+  .form__close-btn {
+    right: 6px;
   }
 
 

@@ -155,7 +155,7 @@ p {
   flex-wrap: wrap;
   align-items: center;
   padding-left: 240px;
-  padding-right: 80px;
+  padding-right: 56px;
   justify-content: space-between;
 }
 
@@ -164,15 +164,6 @@ p {
   font-size: 20px;
   line-height: 20px;
   color: #121723;
-}
-
-.header__top-search-btn {
-  padding: 0;
-  padding-top: 5px;
-  margin-right: 26px;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
 }
 
 .header__top-log-in-btn {
@@ -303,4 +294,82 @@ p {
 
 .accordion-320 {
   display: none;
+}
+
+.form__search {
+  position: relative;
+}
+
+.form__search-input {
+  border-color: transparent;
+  width: 0px;
+  transition: width .5s ease-in-out, border-color .5s ease-in-out;
+  padding-left: 20px;
+  padding-right: 25px;
+  margin-right: 25px;
+  outline: none;
+}
+
+.form__search-input::placeholder {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: 16px;
+  color: #A1A6B4;
+}
+
+.header.open-search .form__search-input {
+  width: 200px;
+  border-bottom: 1px solid #6D31EE;
+}
+
+.header.open-search .header__top-menu {
+  padding-right: 0;
+  transition: padding .5s ease-in-out, justify-content .5s ease-in-out;
+  will-change: padding, justify-content;
+}
+
+.form__open-btn {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 24px;
+  height: 24px;
+  top: 0px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.form__open-btn-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header.open-search .form__open-btn {
+  display: none;
+}
+
+.form__close-btn {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 22px;
+  height: 22px;
+  top: 0px;
+  right: 33px;
+  cursor: pointer;
+}
+
+.form__close-btn-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.header .form__close-btn {
+  display: none;
+}
+
+.header.open-search .form__close-btn {
+  display: block;
 }
