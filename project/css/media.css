@@ -53,6 +53,10 @@
     display: none;
   }
 
+  .registration-form {
+    right: 100px;
+  }
+
 }
 
 
@@ -205,6 +209,36 @@
   .header__bottom-play-list::after,
   .header__bottom-play-list::before {
     display: none;
+  }
+
+  .registration-form {
+    min-width: 539px;
+    right: 115px;
+  }
+
+  .registration-form__content {
+    padding: 60px 40px;
+  }
+
+  .registration-form__content::after {
+    left: 40px;
+    width: 459px;
+  }
+
+  .registration-form__input {
+    width: 459px;
+  }
+
+  .registration-form__log-in-btn {
+    left: 40px;
+  }
+
+  .registration-form__entry-options-text {
+    left: 40px;
+  }
+
+  .registration-form__social-content {
+    left: 40px;
   }
 
 }
@@ -456,7 +490,7 @@
     color: #121723;
   }
 
-  .header.open-accordion .accordion-320__btn-icon{
+  .header.open-accordion .accordion-320__btn-icon {
     transform: rotate(-90deg);
     transition: transform .5s ease-in-out;
   }
@@ -476,6 +510,100 @@
 
   .form__close-btn {
     right: 6px;
+  }
+
+  .registration-form {
+    min-width: 256px;
+    min-height: 442px;
+    right: 1px;
+  }
+
+  .registration-form__content {
+    padding: 40px 20px;
+  }
+
+  .registration-form__close-btn {
+    top: 20px;
+    right: 20px;
+  }
+
+  .registration-form__close-btn-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .registration-form__title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .registration-form__description {
+    font-size: 12px;
+    line-height: 24px;
+    color: #A1A6B4;
+  }
+
+  .registration-form__registration-link {
+    font-size: 12px;
+    line-height: 150%;
+    color: #6D31EE;
+  }
+
+  .registration-form__input {
+    width: 216px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .registration-form__input::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .position-1 {
+    left: 20px;
+    top: 128px;
+  }
+
+  .position-2 {
+    left: 20px;
+    top: 188px;
+  }
+
+  .registration-form__log-in-btn {
+    padding: 17px 43px;
+    gap: 4px;
+    width: 160px;
+    height: 40px;
+    left: 20px;
+    top: 248px;
+    background: #6D31EE;
+    border-radius: 77px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .registration-form__content::after {
+    left: 20px;
+    top: 318px;
+    width: 270px;
+  }
+
+  .registration-form__entry-options-text {
+    font-size: 12px;
+    line-height: 24px;
+    color: #A1A6B4;
+    left: 20px;
+    top: 328px;
+  }
+
+  .registration-form__social-content {
+    top: 360px;
+    left: 20px;
+    width: 270px;
   }
 
 

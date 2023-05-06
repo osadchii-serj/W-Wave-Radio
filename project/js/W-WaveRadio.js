@@ -15,6 +15,18 @@ document.addEventListener("DOMContentLoaded", function(){
     document.querySelector(".header").classList.remove("open-search");
   });
 
+  document.getElementById("log-in").addEventListener("click", function(){
+    document.querySelector(".header").classList.add("open-registration-form");
+  });
+
+  document.getElementById("registration-close").addEventListener("click", function(){
+    document.querySelector(".header").classList.remove("open-registration-form");
+  });
+
+  document.getElementById("login").addEventListener("click", function(){
+    document.querySelector(".header").classList.remove("open-registration-form");
+  });
+
 });
 
 

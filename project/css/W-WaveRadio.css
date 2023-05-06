@@ -373,3 +373,155 @@ p {
 .header.open-search .form__close-btn {
   display: block;
 }
+
+.registration-form {
+  position: absolute;
+  min-width: 824px;
+  min-height: 655px;
+  top: -824px;
+  right: 560px;
+  background-color: #121723;
+  z-index: 3;
+  transition: transform .5s ease-in-out;
+  will-change: transform;
+}
+
+.header.open-registration-form .registration-form {
+  transform: translateY(824px);
+  transition: transform .5s ease-in-out;
+  will-change: transform;
+}
+
+.registration-form__content {
+  position: relative;
+  min-width: inherit;
+  min-height: inherit;
+  padding: 60px;
+}
+
+.registration-form__content::after {
+  position: absolute;
+  width: 704px;
+  height: 1px;
+  content: "";
+  left: 60px;
+  top: 475px;
+  background-color: #E6E8EC66;
+}
+
+.registration-form__close-btn {
+  position: absolute;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+}
+
+.registration-form__close-btn-icon {
+  width: 42px;
+  height: 42px;
+}
+
+.registration-form__title {
+  font-family: 'MullerRegular';
+  font-size: 48px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+
+.registration-form__description {
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.registration-form__registration-link {
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 150%;
+  color: #6D31EE;
+}
+
+.registration-form__input {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px 10px 10px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 526px;
+  height: 70px;
+  border: 1px solid #FFFFFF;
+  color: #fff;
+  border-radius: 40px;
+  background-color: transparent;
+}
+
+.registration-form__input::placeholder {
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #A1A6B4;
+}
+
+.position-1 {
+  top: 175px;
+}
+
+.position-2 {
+  top: 275px;
+}
+
+.registration-form__log-in-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 54px;
+  gap: 10px;
+  position: absolute;
+  width: 167px;
+  height: 70px;
+  left: 60px;
+  top: 375px;
+  background: #6D31EE;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  font-family: 'MullerMedium';
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.registration-form__entry-options-text {
+  position: absolute;
+  width: 274px;
+  height: 20px;
+  left: 60px;
+  top: 505px;
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.registration-form__social-content {
+  position: absolute;
+  top: 538px;
+  left: 60px;
+  width: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
