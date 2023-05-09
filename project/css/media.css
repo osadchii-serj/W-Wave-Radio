@@ -83,9 +83,11 @@
     height: 24px;
     cursor: pointer;
     border: none;
+    outline: none;
     background-color: transparent;
     z-index: 3;
     justify-self: flex-start;
+    transition: background-color .3s ease-in-out;
   }
 
   .burger__line {
@@ -96,6 +98,23 @@
     left: -1px;
     background-color: #6D31EE;
     transition: transform .3s ease-in-out, opacity .3s ease-in-out, background-color .3s ease-in-out;
+  }
+
+  .burger:hover .burger__line {
+    background-color: #AA9DFA;
+  }
+
+  .burger:focus {
+    border: none;
+    outline: none;
+  }
+
+  .burger:focus .burger__line {
+    background-color: #AA9DFA;
+  }
+
+  .burger:active .burger__line {
+    background-color: #4F28A5;
   }
 
   .burger__line:nth-child(2) {
@@ -162,6 +181,11 @@
 
   .five-item {
     order: 4;
+  }
+
+  .header__top-link,
+  .header__bottom-link {
+    padding: 0;
   }
 
   .header.open-menu .header__top-nav {
@@ -424,6 +448,36 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    outline: none;
+    border: none;
+  }
+
+  .accordion-320__content .accordion-320__btn .accordion-320__btn-icon circle{
+    transition: fill .3s ease-in-out;
+  }
+
+  .accordion-320__content .accordion-320__btn:hover .accordion-320__btn-icon circle {
+    fill: #AA9DFA;
+  }
+
+  .accordion-320__content .accordion-320__btn:hover .accordion-320__btn-icon path {
+    fill: #6D31EE;
+  }
+
+  .accordion-320__content .accordion-320__btn:focus .accordion-320__btn-icon circle {
+    fill: #AA9DFA;
+  }
+
+  .accordion-320__content .accordion-320__btn:focus .accordion-320__btn-icon path {
+    fill: #6D31EE;
+  }
+
+  .accordion-320__content .accordion-320__btn:active .accordion-320__btn-icon circle {
+    fill: #4F28A5;
+  }
+
+  .accordion-320__content .accordion-320__btn:active .accordion-320__btn-icon path {
+    fill: #AA9DFA;
   }
 
   .accordion-320__btn-icon {
@@ -439,6 +493,19 @@
     font-size: 16px;
     line-height: 16px;
     color: #6D31EE;
+    transition: color .3s ease-in-out;
+  }
+
+  .accordion-320__content .accordion-320__btn:hover .accordion-320__btn-text {
+    color: #AA9DFA;
+  }
+
+  .accordion-320__content .accordion-320__btn:focus .accordion-320__btn-text {
+    color: #AA9DFA;
+  }
+
+  .accordion-320__content .accordion-320__btn:active .accordion-320__btn-text {
+    color: #4F28A5;
   }
 
   .accordion-320__content .accordion-320__panel {

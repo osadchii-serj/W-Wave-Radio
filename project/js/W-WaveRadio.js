@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function(){
     document.querySelector(".header").classList.remove("open-registration-form");
   });
 
-  document.getElementById("login").addEventListener("click", function(){
-    document.querySelector(".header").classList.remove("open-registration-form");
-  });
+  // document.getElementById("login").addEventListener("click", function(){
+  //   document.querySelector(".header").classList.remove("open-registration-form");
+  // });
 
 });
 

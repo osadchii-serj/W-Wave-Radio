@@ -157,6 +157,7 @@ p {
   padding-left: 240px;
   padding-right: 56px;
   justify-content: space-between;
+  transition: padding .3s ease-in-out;
 }
 
 .header__top-link {
@@ -164,6 +165,22 @@ p {
   font-size: 20px;
   line-height: 20px;
   color: #121723;
+  outline: none;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.header__top-link:hover {
+  color: #6D31EE;
+}
+
+.header__top-link:focus {
+  color: #fff;
+  background-color: #AA9DFA;
+}
+
+.header__top-link:active {
+  color: #4F28A5;
+  background-color: transparent;
 }
 
 .header__top-log-in-btn {
@@ -176,6 +193,7 @@ p {
   width: 104px;
   height: 40px;
   border: 2px solid #121723;
+  outline: none;
   border-radius: 77px;
   background-color: transparent;
   cursor: pointer;
@@ -184,7 +202,24 @@ p {
   line-height: 16px;
   text-align: center;
   color: #121723;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
 }
+
+.header__top-log-in-btn:hover {
+  background-color: #121723;
+  color: #fff;
+}
+
+.header__top-log-in-btn:focus {
+  background-color: #AA9DFA;
+  color: #121723;
+}
+
+.header__top-log-in-btn:active {
+  background-color: #4F28A5;
+  color: #fff;
+}
+
 
 .header__top-nav-decoration {
   display: none;
@@ -213,6 +248,22 @@ p {
   font-size: 16px;
   line-height: 16px;
   color: #121723;
+  outline: none;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.header__bottom-link:hover {
+  color: #6D31EE;
+}
+
+.header__bottom-link:focus {
+  color: #fff;
+  background-color: #AA9DFA;
+}
+
+.header__bottom-link:active {
+  color: #4F28A5;
+  background-color: transparent;
 }
 
 .header__bottom-play-list {
@@ -308,6 +359,15 @@ p {
   padding-right: 25px;
   margin-right: 25px;
   outline: none;
+  border: none;
+}
+
+.form__search-input:focus {
+  width: 100%;
+}
+
+.form__search-input:active {
+  width: 0;
 }
 
 .form__search-input::placeholder {
@@ -342,7 +402,29 @@ p {
 
 .form__open-btn-icon {
   width: 24px;
-  height: 24px;
+  height: 24px;;
+  transition: stroke .3s ease-in-out;
+}
+
+.form__open-btn-icon path {
+  transition: stroke .3s ease-in-out;
+}
+
+.form__open-btn:focus {
+  outline: none;
+  border: none;
+}
+
+.form__open-btn:hover .form__open-btn-icon path{
+  stroke: #AA9DFA;
+}
+
+.form__open-btn:focus .form__open-btn-icon path{
+  stroke: #AA9DFA;
+}
+
+.form__open-btn:active .form__open-btn-icon path{
+  stroke: #4F28A5;
 }
 
 .header.open-search .form__open-btn {
@@ -361,9 +443,34 @@ p {
   cursor: pointer;
 }
 
+.form__close-btn:focus {
+  outline: none;
+  border: none;
+}
+
 .form__close-btn-icon {
   width: 22px;
   height: 22px;
+}
+
+.form__close-btn-icon circle,
+.form__close-btn-icon path {
+  transition: stroke .3s ease-in-out;
+}
+
+.form__close-btn:hover .form__close-btn-icon circle,
+.form__close-btn:hover .form__close-btn-icon path {
+  stroke: #AA9DFA;
+}
+
+.form__close-btn:focus .form__close-btn-icon circle,
+.form__close-btn:focus .form__close-btn-icon path {
+  stroke: #AA9DFA;
+}
+
+.form__close-btn:active .form__close-btn-icon circle,
+.form__close-btn:active .form__close-btn-icon path {
+  stroke: #4F28A5;
 }
 
 .header .form__close-btn {
@@ -424,6 +531,26 @@ p {
   height: 42px;
 }
 
+.registration-form__close-btn-icon circle,
+.registration-form__close-btn-icon path {
+  transition: .3s ease-in-out;
+}
+
+.registration-form__close-btn:hover .registration-form__close-btn-icon circle,
+.registration-form__close-btn:hover .registration-form__close-btn-icon path {
+  stroke: #6D31EE;
+}
+
+.registration-form__close-btn:focus .registration-form__close-btn-icon circle,
+.registration-form__close-btn:focus .registration-form__close-btn-icon path {
+  stroke: #AA9DFA;
+}
+
+.registration-form__close-btn:active .registration-form__close-btn-icon circle,
+.registration-form__close-btn:active .registration-form__close-btn-icon path {
+  stroke: #4F28A5;
+}
+
 .registration-form__title {
   font-family: 'MullerRegular';
   font-size: 48px;
@@ -445,6 +572,21 @@ p {
   font-size: 20px;
   line-height: 150%;
   color: #6D31EE;
+  border: none;
+  outline: none;
+  transition: color .3s ease-in-out;
+}
+
+.registration-form__registration-link:hover {
+  color: #AA9DFA;
+}
+
+.registration-form__registration-link:focus {
+  color: #AA9DFA;
+}
+
+.registration-form__registration-link:active {
+  color: #4F28A5;
 }
 
 .registration-form__input {
@@ -461,9 +603,19 @@ p {
   width: 526px;
   height: 70px;
   border: 1px solid #FFFFFF;
+  outline: none;
   color: #fff;
   border-radius: 40px;
   background-color: transparent;
+  transition: background-color .3s ease-in-out;
+}
+
+.registration-form__input:hover {
+  background-color: #292E39;
+}
+
+.registration-form__input:focus {
+  background-color: #292E39;
 }
 
 .registration-form__input::placeholder {
@@ -497,12 +649,29 @@ p {
   border-radius: 40px;
   cursor: pointer;
   border: none;
+  outline: none;
   font-family: 'MullerMedium';
   font-size: 20px;
   line-height: 20px;
   text-align: center;
   color: #FFFFFF;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
 }
+
+.registration-form__log-in-btn:hover {
+  background-color: #AA9DFA;
+}
+
+.registration-form__log-in-btn:focus {
+  border: 2px solid #4F28A5;
+  background-color: #AA9DFA;
+}
+
+.registration-form__log-in-btn:active {
+  border: 2px solid transparent;
+  background-color: #4F28A5;
+}
+
 
 .registration-form__entry-options-text {
   position: absolute;
@@ -525,3 +694,28 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.registration-form__social-link {
+  outline: none;
+}
+
+.registration-form__social-icon g path,
+.registration-form__social-icon rect {
+  transition: fill .3s ease-in-out;
+}
+
+.registration-form__social-link:hover .registration-form__social-icon g path,
+.registration-form__social-link:hover .registration-form__social-icon rect {
+  fill: #6D31EE;
+}
+
+.registration-form__social-link:focus .registration-form__social-icon g path,
+.registration-form__social-link:focus .registration-form__social-icon rect {
+  fill: #AA9DFA;
+}
+
+.registration-form__social-link:active .registration-form__social-icon g path,
+.registration-form__social-link:active .registration-form__social-icon rect {
+  fill: #4F28A5;
+}
+
