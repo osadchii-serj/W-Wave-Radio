@@ -109,7 +109,7 @@
         <button class="header__top-log-in-btn" id="log-in">
           Вход
         </button>
-        <form action="https://jsonplaceholder.typicode.com/posts" class="registration-form" target="_blank">
+        <form action="https://jsonplaceholder.typicode.com/posts" class="registration-form" target="_blank" autocomplete="off">
           <div class="registration-form__content">
             <button class="registration-form__close-btn" type="button" id="registration-close">
               <svg class="registration-form__close-btn-icon" width="42" height="42" viewBox="0 0 42 42" fill="none"
@@ -127,8 +127,12 @@
                 зарегистрируйтесь
               </a>
             </p>
-            <input type="email" class="registration-form__input position-1" placeholder="Логин" required>
-            <input type="password" class="registration-form__input position-2" placeholder="Пароль" required>
+            <div class="registration-form__input-wrapper-1">
+              <input type="text" class="registration-form__input" name="name" id="name" placeholder="Логин" required autocomplete="off">
+            </div>
+            <div class="registration-form__input-wrapper-2">
+              <input type="password" class="registration-form__input" name="password" id="password" placeholder="Пароль" required autocomplete="off">
+            </div>
             <button class="registration-form__log-in-btn" type="submit" id="login">
               Войти
             </button>
@@ -330,6 +334,7 @@
     </div>
   </header>
 
+  <script defer src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   <script defer src="js/accordion.min.js"></script>
   <script defer src="js/W-WaveRadio.js"></script>
 </body>

@@ -253,6 +253,11 @@
     width: 459px;
   }
 
+  .registration-form__input-wrapper-1,
+  .registration-form__input-wrapper-2 {
+    width: 459px;
+  }
+
   .registration-form__log-in-btn {
     left: 40px;
   }
@@ -630,14 +635,22 @@
     line-height: 16px;
   }
 
-  .position-1 {
+  .registration-form__input-wrapper-1 {
     left: 20px;
     top: 128px;
+    width: 216px;
+    height: 52px;
   }
 
-  .position-2 {
+  .registration-form__input-wrapper-2 {
     left: 20px;
     top: 188px;
+    width: 216px;
+    height: 52px;
+  }
+
+  .just-validate-error-label {
+    font-size: 8px;
   }
 
   .registration-form__log-in-btn {
@@ -646,7 +659,7 @@
     width: 160px;
     height: 40px;
     left: 20px;
-    top: 248px;
+    top: 255px;
     background: #6D31EE;
     border-radius: 77px;
     font-size: 16px;

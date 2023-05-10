@@ -589,8 +589,33 @@ p {
   color: #4F28A5;
 }
 
-.registration-form__input {
+.registration-form__input-wrapper-1 {
   position: absolute;
+  top: 175px;
+  height: 70px;
+  width: 526px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.registration-form__input-wrapper-2 {
+  position: absolute;
+  top: 275px;
+  height: 70px;
+  width: 526px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.just-validate-error-label {
+  z-index: 3;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+
+
+.registration-form__input {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -623,14 +648,6 @@ p {
   font-size: 20px;
   line-height: 20px;
   color: #A1A6B4;
-}
-
-.position-1 {
-  top: 175px;
-}
-
-.position-2 {
-  top: 275px;
 }
 
 .registration-form__log-in-btn {
@@ -718,4 +735,5 @@ p {
 .registration-form__social-link:active .registration-form__social-icon rect {
   fill: #4F28A5;
 }
+
 
