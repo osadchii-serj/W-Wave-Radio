@@ -1,0 +1,739 @@
+@font-face {
+  font-family: 'MullerMedium';
+  src: url('MullerMedium.eot');
+  src: local('Muller Medium'), local('MullerMedium'),
+    url('../fonts/MullerMedium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MullerMedium.woff2') format('woff2'),
+    url('../fonts/MullerMedium.woff') format('woff'),
+    url('../fonts/MullerMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerRegular';
+  src: url('MullerRegular.eot');
+  src: local('Muller Regular'), local('MullerRegular'),
+    url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MullerRegular.woff2') format('woff2'),
+    url('../fonts/MullerRegular.woff') format('woff'),
+    url('../fonts/MullerRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerLight';
+  src: url('MullerLight.eot');
+  src: local('Muller Light'), local('MullerLight'),
+    url('../fonts/MullerLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MullerLight.woff2') format('woff2'),
+    url('../fonts/MullerLight.woff') format('woff'),
+    url('../fonts/MullerLight.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerBold';
+  src: url('MullerBold.eot');
+  src: local('Muller Bold'), local('MullerBold'),
+    url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MullerBold.woff2') format('woff2'),
+    url('../fonts/MullerBold.woff') format('woff'),
+    url('../fonts/MullerBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  background-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* header */
+.header {
+  position: relative;
+  width: 100%;
+}
+
+/* container */
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 405px;
+}
+
+.logo-wrapper {
+  position: absolute;
+  width: 160px;
+  top: 30px;
+}
+
+.logo {
+  width: 160px;
+  height: 20px;
+}
+
+.header__top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 80px;
+}
+
+.header__bottom-section {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+}
+
+.header__top-section::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #D2D5DD;
+  bottom: 0;
+  left: 0;
+}
+
+.header__bottom-section::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #D2D5DD;
+  bottom: 60px;
+  left: 0;
+}
+
+.burger {
+  display: none;
+}
+
+.header__top-nav {
+  width: 100%;
+  min-height: inherit;
+}
+
+.header__top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 240px;
+  padding-right: 56px;
+  justify-content: space-between;
+  transition: padding .3s ease-in-out;
+}
+
+.header__top-link {
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #121723;
+  outline: none;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.header__top-link:hover {
+  color: #6D31EE;
+}
+
+.header__top-link:focus {
+  color: #fff;
+  background-color: #AA9DFA;
+}
+
+.header__top-link:active {
+  color: #4F28A5;
+  background-color: transparent;
+}
+
+.header__top-log-in-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 43px;
+  gap: 4px;
+  width: 104px;
+  height: 40px;
+  border: 2px solid #121723;
+  outline: none;
+  border-radius: 77px;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'MullerMedium';
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #121723;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.header__top-log-in-btn:hover {
+  background-color: #121723;
+  color: #fff;
+}
+
+.header__top-log-in-btn:focus {
+  background-color: #AA9DFA;
+  color: #121723;
+}
+
+.header__top-log-in-btn:active {
+  background-color: #4F28A5;
+  color: #fff;
+}
+
+
+.header__top-nav-decoration {
+  display: none;
+}
+
+.header__bottom-nav {
+  width: 100%;
+  min-height: inherit;
+}
+
+.header__bottom-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 51px;
+}
+
+.header__bottom-link {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: 16px;
+  color: #121723;
+  outline: none;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.header__bottom-link:hover {
+  color: #6D31EE;
+}
+
+.header__bottom-link:focus {
+  color: #fff;
+  background-color: #AA9DFA;
+}
+
+.header__bottom-link:active {
+  color: #4F28A5;
+  background-color: transparent;
+}
+
+.header__bottom-play-list {
+  position: relative;
+  min-width: 175px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 13px;
+}
+
+.header__bottom-play-list::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 40px;
+  top: 10px;
+  left: 0;
+  background-color: #D2D5DD;
+}
+
+.header__bottom-play-list::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 40px;
+  top: 10px;
+  right: -1px;
+  background-color: #D2D5DD;
+}
+
+.header__bottom-play-list-age {
+  position: relative;
+  min-width: 100px;
+}
+
+.header__bottom-play-list-icon-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__bottom-play-list-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header__bottom-play-list-icon-age {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 46px;
+  height: 60px;
+}
+
+.header__bottom-play-list-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 45px;
+}
+
+
+.header__bottom-play-list-title {
+  font-family: 'MullerRegular';
+  font-size: 12px;
+  line-height: 12px;
+  color: #A1A6B4;
+  margin-bottom: 5px;
+}
+
+.header__bottom-play-list-text {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: 16px;
+  color: #121723;
+}
+
+.accordion-320 {
+  display: none;
+}
+
+.form__search {
+  position: relative;
+}
+
+.form__search-input {
+  border-color: transparent;
+  width: 0px;
+  transition: width .5s ease-in-out, border-color .5s ease-in-out;
+  padding-left: 20px;
+  padding-right: 25px;
+  margin-right: 25px;
+  outline: none;
+  border: none;
+}
+
+.form__search-input:focus {
+  width: 100%;
+}
+
+.form__search-input:active {
+  width: 0;
+}
+
+.form__search-input::placeholder {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: 16px;
+  color: #A1A6B4;
+}
+
+.header.open-search .form__search-input {
+  width: 200px;
+  border-bottom: 1px solid #6D31EE;
+}
+
+.header.open-search .header__top-menu {
+  padding-right: 0;
+  transition: padding .5s ease-in-out, justify-content .5s ease-in-out;
+  will-change: padding, justify-content;
+}
+
+.form__open-btn {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 24px;
+  height: 24px;
+  top: 0px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.form__open-btn-icon {
+  width: 24px;
+  height: 24px;;
+  transition: stroke .3s ease-in-out;
+}
+
+.form__open-btn-icon path {
+  transition: stroke .3s ease-in-out;
+}
+
+.form__open-btn:focus {
+  outline: none;
+  border: none;
+}
+
+.form__open-btn:hover .form__open-btn-icon path{
+  stroke: #AA9DFA;
+}
+
+.form__open-btn:focus .form__open-btn-icon path{
+  stroke: #AA9DFA;
+}
+
+.form__open-btn:active .form__open-btn-icon path{
+  stroke: #4F28A5;
+}
+
+.header.open-search .form__open-btn {
+  display: none;
+}
+
+.form__close-btn {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 22px;
+  height: 22px;
+  top: 0px;
+  right: 33px;
+  cursor: pointer;
+}
+
+.form__close-btn:focus {
+  outline: none;
+  border: none;
+}
+
+.form__close-btn-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.form__close-btn-icon circle,
+.form__close-btn-icon path {
+  transition: stroke .3s ease-in-out;
+}
+
+.form__close-btn:hover .form__close-btn-icon circle,
+.form__close-btn:hover .form__close-btn-icon path {
+  stroke: #AA9DFA;
+}
+
+.form__close-btn:focus .form__close-btn-icon circle,
+.form__close-btn:focus .form__close-btn-icon path {
+  stroke: #AA9DFA;
+}
+
+.form__close-btn:active .form__close-btn-icon circle,
+.form__close-btn:active .form__close-btn-icon path {
+  stroke: #4F28A5;
+}
+
+.header .form__close-btn {
+  display: none;
+}
+
+.header.open-search .form__close-btn {
+  display: block;
+}
+
+.registration-form {
+  position: absolute;
+  min-width: 824px;
+  min-height: 655px;
+  top: -824px;
+  right: 560px;
+  background-color: #121723;
+  z-index: 3;
+  transition: transform .5s ease-in-out;
+  will-change: transform;
+}
+
+.header.open-registration-form .registration-form {
+  transform: translateY(824px);
+  transition: transform .5s ease-in-out;
+  will-change: transform;
+}
+
+.registration-form__content {
+  position: relative;
+  min-width: inherit;
+  min-height: inherit;
+  padding: 60px;
+}
+
+.registration-form__content::after {
+  position: absolute;
+  width: 704px;
+  height: 1px;
+  content: "";
+  left: 60px;
+  top: 475px;
+  background-color: #E6E8EC66;
+}
+
+.registration-form__close-btn {
+  position: absolute;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+}
+
+.registration-form__close-btn-icon {
+  width: 42px;
+  height: 42px;
+}
+
+.registration-form__close-btn-icon circle,
+.registration-form__close-btn-icon path {
+  transition: .3s ease-in-out;
+}
+
+.registration-form__close-btn:hover .registration-form__close-btn-icon circle,
+.registration-form__close-btn:hover .registration-form__close-btn-icon path {
+  stroke: #6D31EE;
+}
+
+.registration-form__close-btn:focus .registration-form__close-btn-icon circle,
+.registration-form__close-btn:focus .registration-form__close-btn-icon path {
+  stroke: #AA9DFA;
+}
+
+.registration-form__close-btn:active .registration-form__close-btn-icon circle,
+.registration-form__close-btn:active .registration-form__close-btn-icon path {
+  stroke: #4F28A5;
+}
+
+.registration-form__title {
+  font-family: 'MullerRegular';
+  font-size: 48px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+
+.registration-form__description {
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.registration-form__registration-link {
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 150%;
+  color: #6D31EE;
+  border: none;
+  outline: none;
+  transition: color .3s ease-in-out;
+}
+
+.registration-form__registration-link:hover {
+  color: #AA9DFA;
+}
+
+.registration-form__registration-link:focus {
+  color: #AA9DFA;
+}
+
+.registration-form__registration-link:active {
+  color: #4F28A5;
+}
+
+.registration-form__input-wrapper-1 {
+  position: absolute;
+  top: 175px;
+  height: 70px;
+  width: 526px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.registration-form__input-wrapper-2 {
+  position: absolute;
+  top: 275px;
+  height: 70px;
+  width: 526px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.just-validate-error-label {
+  z-index: 3;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+
+
+.registration-form__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px 10px 10px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 526px;
+  height: 70px;
+  border: 1px solid #FFFFFF;
+  outline: none;
+  color: #fff;
+  border-radius: 40px;
+  background-color: transparent;
+  transition: background-color .3s ease-in-out;
+}
+
+.registration-form__input:hover {
+  background-color: #292E39;
+}
+
+.registration-form__input:focus {
+  background-color: #292E39;
+}
+
+.registration-form__input::placeholder {
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #A1A6B4;
+}
+
+.registration-form__log-in-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 54px;
+  gap: 10px;
+  position: absolute;
+  width: 167px;
+  height: 70px;
+  left: 60px;
+  top: 375px;
+  background: #6D31EE;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: 'MullerMedium';
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.registration-form__log-in-btn:hover {
+  background-color: #AA9DFA;
+}
+
+.registration-form__log-in-btn:focus {
+  border: 2px solid #4F28A5;
+  background-color: #AA9DFA;
+}
+
+.registration-form__log-in-btn:active {
+  border: 2px solid transparent;
+  background-color: #4F28A5;
+}
+
+
+.registration-form__entry-options-text {
+  position: absolute;
+  width: 274px;
+  height: 20px;
+  left: 60px;
+  top: 505px;
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.registration-form__social-content {
+  position: absolute;
+  top: 538px;
+  left: 60px;
+  width: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.registration-form__social-link {
+  outline: none;
+}
+
+.registration-form__social-icon g path,
+.registration-form__social-icon rect {
+  transition: fill .3s ease-in-out;
+}
+
+.registration-form__social-link:hover .registration-form__social-icon g path,
+.registration-form__social-link:hover .registration-form__social-icon rect {
+  fill: #6D31EE;
+}
+
+.registration-form__social-link:focus .registration-form__social-icon g path,
+.registration-form__social-link:focus .registration-form__social-icon rect {
+  fill: #AA9DFA;
+}
+
+.registration-form__social-link:active .registration-form__social-icon g path,
+.registration-form__social-link:active .registration-form__social-icon rect {
+  fill: #4F28A5;
+}
+
+
