@@ -57,6 +57,21 @@
     right: 100px;
   }
 
+  .hero__img-microphone-wrapper {
+    width: 256px;
+    height: 262px;
+    top: 77px;
+  }
+
+  .hero__title-wrapper {
+    padding-top: 90px;
+  }
+
+  .hero__description-wrapper {
+    max-width: 539px;
+    margin-bottom: 22px;
+  }
+
 }
 
 
@@ -270,6 +285,14 @@
     left: 40px;
   }
 
+  .hero__img-microphone-wrapper {
+    display: none;
+  }
+
+  .hero__title-wrapper {
+    padding-top: 91px;
+  }
+
 }
 
 
@@ -457,7 +480,7 @@
     border: none;
   }
 
-  .accordion-320__content .accordion-320__btn .accordion-320__btn-icon circle{
+  .accordion-320__content .accordion-320__btn .accordion-320__btn-icon circle {
     transition: fill .3s ease-in-out;
   }
 
@@ -684,6 +707,36 @@
     top: 360px;
     left: 20px;
     width: 270px;
+  }
+
+  .hero__title-wrapper {
+    padding-top: 40px;
+  }
+
+  .hero__title,
+  .hero__title-slogan {
+    font-size: 32px;
+  }
+
+  .hero__title {
+    margin-right: 7px;
+  }
+
+  .hero__description-wrapper {
+    padding-top: 7px;
+    margin-bottom: 20px;
+  }
+
+  .hero__description {
+    font-size: 14px;
+  }
+
+  .hero__play-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 25px 35px;
   }
 
 

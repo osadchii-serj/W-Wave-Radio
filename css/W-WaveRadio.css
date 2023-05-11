@@ -23,6 +23,18 @@
 }
 
 @font-face {
+  font-family: 'Muller Regular';
+  src: url('MullerRegularItalic.eot');
+  src: local('Muller Regular Italic'), local('MullerRegularItalic'),
+    url('../fonts/') format('embedded-opentype'),
+    url('../fonts/MullerRegularItalic.woff2') format('woff2'),
+    url('../fonts/MullerRegularItalic.woff') format('woff'),
+    url('../fonts/MullerRegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
   font-family: 'MullerLight';
   src: url('MullerLight.eot');
   src: local('Muller Light'), local('MullerLight'),
@@ -402,7 +414,8 @@ p {
 
 .form__open-btn-icon {
   width: 24px;
-  height: 24px;;
+  height: 24px;
+  ;
   transition: stroke .3s ease-in-out;
 }
 
@@ -415,15 +428,15 @@ p {
   border: none;
 }
 
-.form__open-btn:hover .form__open-btn-icon path{
+.form__open-btn:hover .form__open-btn-icon path {
   stroke: #AA9DFA;
 }
 
-.form__open-btn:focus .form__open-btn-icon path{
+.form__open-btn:focus .form__open-btn-icon path {
   stroke: #AA9DFA;
 }
 
-.form__open-btn:active .form__open-btn-icon path{
+.form__open-btn:active .form__open-btn-icon path {
   stroke: #4F28A5;
 }
 
@@ -737,3 +750,89 @@ p {
 }
 
 
+
+/* main */
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* section-hero */
+.section-hero {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__img-microphone-wrapper {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  object-fit: cover;
+}
+
+.hero__title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 94px;
+}
+
+.hero__title {
+  font-family: 'MullerBold';
+  font-size: 60px;
+  line-height: 100%;
+  color: #121723;
+  margin-right: 13px;
+}
+
+.hero__title-slogan {
+  font-family: 'Muller Regular';
+  font-size: 60px;
+  line-height: 100%;
+  color: #121723;
+}
+
+.hero__description-wrapper {
+  max-width: 635px;
+  padding-top: 14px;
+  margin-bottom: 46px;
+}
+
+.hero__description {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: 150%;
+  color: #121723;
+}
+
+.hero__play-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 54px;
+  gap: 10px;
+  width: 245px;
+  height: 70px;
+  left: 405px;
+  top: 286px;
+  background: #6D31EE;
+  border-radius: 40px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'MullerMedium';
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
