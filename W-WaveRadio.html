@@ -215,70 +215,10 @@
             </li>
           </ul>
         </nav>
-        <div class="header__bottom-play-list">
-          <div class="header__bottom-play-list-icon-wrapper">
-            <svg class="header__bottom-play-list-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_24531_5430)">
-                <path
-                  d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
-                  fill="#A1A6B4" />
-              </g>
-              <defs>
-                <clipPath>
-                  <rect width="24" height="24" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-          </div>
-          <div class="header__bottom-play-list-content">
-            <p class="header__bottom-play-list-title">
-              Ранее в эфире
-            </p>
-            <p class="header__bottom-play-list-text">
-              «Музыка»
-            </p>
-          </div>
-        </div>
-        <div class="header__bottom-play-list">
-          <div class="header__bottom-play-list-icon-wrapper">
-            <svg class="header__bottom-play-list-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_24531_5430)">
-                <path
-                  d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
-                  fill="#A1A6B4" />
-              </g>
-              <defs>
-                <clipPath>
-                  <rect width="24" height="24" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-          </div>
-          <div class="header__bottom-play-list-content">
-            <p class="header__bottom-play-list-title">
-              Сейчас в эфире
-            </p>
-            <p class="header__bottom-play-list-text">
-              «Как так?»
-            </p>
-          </div>
-        </div>
-        <div class="header__bottom-play-list-age">
-          <svg class="header__bottom-play-list-icon-age" width="46" height="60" viewBox="0 0 46 60" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <rect width="46" height="60" fill="#E6E8EC" />
-            <rect x="8" y="15" width="30" height="30" rx="15" fill="white" />
-            <path
-              d="M16.6895 35H15.7402V28.8945C15.7402 28.3867 15.7559 27.9062 15.7871 27.4531C15.7051 27.5352 15.6133 27.6211 15.5117 27.7109C15.4102 27.8008 14.9453 28.1816 14.1172 28.8535L13.6016 28.1855L15.8691 26.4336H16.6895V35ZM25.584 35H19.9531V34.1621L22.209 31.8945C22.8965 31.1992 23.3496 30.7031 23.5684 30.4062C23.7871 30.1094 23.9512 29.8203 24.0605 29.5391C24.1699 29.2578 24.2246 28.9551 24.2246 28.6309C24.2246 28.1738 24.0859 27.8125 23.8086 27.5469C23.5312 27.2773 23.1465 27.1426 22.6543 27.1426C22.2988 27.1426 21.9609 27.2012 21.6406 27.3184C21.3242 27.4355 20.9707 27.6484 20.5801 27.957L20.0645 27.2949C20.8535 26.6387 21.7129 26.3105 22.6426 26.3105C23.4473 26.3105 24.0781 26.5176 24.5352 26.9316C24.9922 27.3418 25.2207 27.8945 25.2207 28.5898C25.2207 29.1328 25.0684 29.6699 24.7637 30.2012C24.459 30.7324 23.8887 31.4043 23.0527 32.2168L21.1777 34.0508V34.0977H25.584V35ZM30.0605 30.3652H32.4746V31.1738H30.0605V33.6699H29.2461V31.1738H26.8438V30.3652H29.2461V27.8574H30.0605V30.3652Z"
-              fill="#A1A6B4" />
-          </svg>
-        </div>
-        <div class="accordion-320 accordion-container">
-          <div class="accordion-320__content ac">
-            <button class="accordion-320__btn ac-header ac-trigger" id="accordion-btn">
-              <svg class="accordion-320__btn-icon" width="15" height="15" viewBox="0 0 15 15" fill="none"
+        <ul class="accordion">
+          <li class="accordion__item">
+            <button class="accordion__header-btn">
+              <svg class="accordion__header-btn-icon" width="15" height="15" viewBox="0 0 15 15" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <circle cx="7.5" cy="7.5" r="7.5" fill="#6D31EE" />
                 <path d="M11.0349 10.3284L10.3277 11.0355L3.96379 4.67156L4.67089 3.96446L11.0349 10.3284Z"
@@ -286,15 +226,13 @@
                 <path d="M4.67089 11.0355L3.96379 10.3284L10.3277 3.96446L11.0349 4.67157L4.67089 11.0355Z"
                   fill="white" />
               </svg>
-              <span class="accordion-320__btn-text">
-                Что в эфире?
-              </span>
+              Что в эфире?
             </button>
-            <div class="accordion-320__panel ac-panel">
-              <div class="accordion-320__play-list">
-                <svg class="accordion-320__play-list-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <div class="accordion__body">
+              <button class="accordion__body-btn">
+                <svg class="accordion__body-btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0_24531_4474)">
+                  <g clip-path="url(#clip0_24531_5430)">
                     <path
                       d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
                       fill="#A1A6B4" />
@@ -305,17 +243,19 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <p class="accordion-320__play-list-title">
-                  Ранее в эфире
-                </p>
-                <p class="accordion-320__play-list-text">
-                  «Музыка»
-                </p>
-              </div>
-              <div class="accordion-320__play-list">
-                <svg class="accordion-320__play-list-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                <span class="accordion__body-text-wrapper">
+                  <span class="accordion__body-top-text">
+                    Ранее в эфире
+                  </span>
+                  <span class="accordion__body-bottom-text">
+                    «Музыка»
+                  </span>
+                </span>
+              </button>
+              <button class="accordion__body-btn">
+                <svg class="accordion__body-btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0_24531_4474)">
+                  <g clip-path="url(#clip0_24531_5430)">
                     <path
                       d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
                       fill="#A1A6B4" />
@@ -326,15 +266,102 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <p class="accordion-320__play-list-title">
-                  Сейчас в эфире
-                </p>
-                <p class="accordion-320__play-list-text">
-                  «Как так?»
-                </p>
-              </div>
+                <span class="accordion__body-text-wrapper">
+                  <span class="accordion__body-top-text">
+                    Сейчас в эфире
+                  </span>
+                  <span class="accordion__body-bottom-text">
+                    «Как так?»
+                  </span>
+                </span>
+              </button>
             </div>
-          </div>
+          </li>
+        </ul>
+        <ul class="accordion accordion-320 accordion-container">
+          <li class="accordion__item ac">
+            <button class="accordion__header-btn ac-header ac-trigger">
+              <svg class="accordion__header-btn-icon" width="15" height="15" viewBox="0 0 15 15" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#6D31EE" />
+                <path d="M11.0349 10.3284L10.3277 11.0355L3.96379 4.67156L4.67089 3.96446L11.0349 10.3284Z"
+                  fill="white" />
+                <path d="M4.67089 11.0355L3.96379 10.3284L10.3277 3.96446L11.0349 4.67157L4.67089 11.0355Z"
+                  fill="white" />
+              </svg>
+              Что в эфире?
+            </button>
+            <div class="accordion__body ac-panel">
+              <button class="accordion__body-btn">
+                <svg class="accordion__body-btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_24531_5430)">
+                    <path
+                      d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
+                      fill="#A1A6B4" />
+                  </g>
+                  <defs>
+                    <clipPath>
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="accordion__body-text-wrapper">
+                  <span class="accordion__body-top-text">
+                    Ранее в эфире
+                  </span>
+                  <span class="accordion__body-bottom-text">
+                    «Музыка»
+                  </span>
+                </span>
+              </button>
+              <button class="accordion__body-btn">
+                <svg class="accordion__body-btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_24531_5430)">
+                    <path
+                      d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
+                      fill="#A1A6B4" />
+                  </g>
+                  <defs>
+                    <clipPath>
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="accordion__body-text-wrapper">
+                  <span class="accordion__body-top-text">
+                    Сейчас в эфире
+                  </span>
+                  <span class="accordion__body-bottom-text">
+                    «Как так?»
+                  </span>
+                </span>
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="age">
+          <svg class="age__play-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_24531_4513)">
+              <path
+                d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
+                fill="#A1A6B4" />
+            </g>
+            <defs>
+              <clipPath id="clip0_24531_4513">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <svg class="age__icon" width="46" height="60" viewBox="0 0 46 60" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect width="46" height="60" fill="#E6E8EC" />
+            <rect x="8" y="15" width="30" height="30" rx="15" fill="white" />
+            <path
+              d="M16.6895 35H15.7402V28.8945C15.7402 28.3867 15.7559 27.9062 15.7871 27.4531C15.7051 27.5352 15.6133 27.6211 15.5117 27.7109C15.4102 27.8008 14.9453 28.1816 14.1172 28.8535L13.6016 28.1855L15.8691 26.4336H16.6895V35ZM25.584 35H19.9531V34.1621L22.209 31.8945C22.8965 31.1992 23.3496 30.7031 23.5684 30.4062C23.7871 30.1094 23.9512 29.8203 24.0605 29.5391C24.1699 29.2578 24.2246 28.9551 24.2246 28.6309C24.2246 28.1738 24.0859 27.8125 23.8086 27.5469C23.5312 27.2773 23.1465 27.1426 22.6543 27.1426C22.2988 27.1426 21.9609 27.2012 21.6406 27.3184C21.3242 27.4355 20.9707 27.6484 20.5801 27.957L20.0645 27.2949C20.8535 26.6387 21.7129 26.3105 22.6426 26.3105C23.4473 26.3105 24.0781 26.5176 24.5352 26.9316C24.9922 27.3418 25.2207 27.8945 25.2207 28.5898C25.2207 29.1328 25.0684 29.6699 24.7637 30.2012C24.459 30.7324 23.8887 31.4043 23.0527 32.2168L21.1777 34.0508V34.0977H25.584V35ZM30.0605 30.3652H32.4746V31.1738H30.0605V33.6699H29.2461V31.1738H26.8438V30.3652H29.2461V27.8574H30.0605V30.3652Z"
+              fill="#A1A6B4" />
+          </svg>
         </div>
       </div>
     </div>
