@@ -27,10 +27,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("headerAccordion-320").addEventListener("click", function () {
+    document.querySelector(".header").classList.toggle("open-headerAccordion-320")
+  });
 
-const accordion = new Accordion('.accordion-container', {
-  duration: 500,
 });
+
+
+new Accordion('.accordion-container');
 
 let validation = new JustValidate(".registration-form")
 validation.addField("#name", [
