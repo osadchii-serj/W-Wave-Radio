@@ -122,6 +122,10 @@
     min-width: 255px;
   }
 
+  .broadcast__col-3 {
+    bottom: 387px;
+  }
+
 }
 
 
@@ -363,6 +367,49 @@
 
   .podcasts__card-play-btn {
     right: 25px;
+  }
+
+  .section-broadcast {
+    position: relative;
+  }
+
+  .section-broadcast::before {
+    position: absolute;
+    content: "";
+    bottom: 155px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #E6E8EC;
+  }
+
+  .broadcast__content {
+    padding-top: 252px;
+    padding-bottom: 215px;
+  }
+
+  .broadcast__col-3 {
+    bottom: 0;
+    min-width: 100%;
+    min-height: 155px;
+  }
+
+  .broadcast__col-3-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 187px;
+    padding-bottom: 30px;
+  }
+
+  .broadcast__archive-link {
+    margin-bottom: 7px;
+  }
+
+  .broadcast__microphone-icon {
+    width: 70px;
+    height: 96px;
+    top: 30px;
+    left: 98px;
   }
 
 }
