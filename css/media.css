@@ -114,6 +114,14 @@
     padding-top: 95px;
   }
 
+  .broadcast__col-2 {
+    max-width: 540px;
+  }
+
+  .broadcast__card {
+    min-width: 255px;
+  }
+
 }
 
 
