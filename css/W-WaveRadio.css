@@ -1068,12 +1068,100 @@ p {
   min-height: 125px;
 }
 
+.broadcast__content-left-top-title {
+  font-family: 'MullerRegular';
+  font-size: 48px;
+  line-height: 100%;
+  color: #121723;
+  margin-bottom: 12px;
+}
+
+.broadcast__content-left-top-author {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: 16px;
+  color: #A1A6B4;
+  margin-bottom: 6px;
+}
+
+.broadcast__content-left-top-list-authors {
+  width: 100%;
+  border: none;
+  background: #E6E8EC;
+  border-radius: 10px;
+  padding: 8px 9px;
+  appearance: none;
+}
+
+.broadcast__content-left-top-list-authors-wrapper {
+  position: relative;
+}
+
+.broadcast__content-left-top-list-authors-wrapper::after {
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #A1A6B4;
+  transform: rotate(-45deg);
+  border-top: none;
+  border-right: none;
+}
+
+.broadcast__content-left-top-author-name {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: 16px;
+  color: #121723;
+}
+
 .broadcast__content-left-bottom {
   position: absolute;
   bottom: 94px;
   left: 0;
-  min-width: 255px;
+  max-width: 255px;
   min-height: 213px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.broadcast__content-left-wrapper-icon {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.broadcast__left-wrapper-content {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  min-height: 100%;
+  align-items: flex-end;
+}
+
+.broadcast__content-left-link {
+  padding: 12px 54px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #121723;
+  border-radius: 77px;
+  font-family: 'MullerMedium';
+  font-size: 16px;
+  line-height: 16px;
+  color: #121723;
+  margin-bottom: 12px;
+}
+
+.broadcast__content-left-description {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: 150%;
+  color: #A1A6B4;
 }
 
 .broadcast__content-card {
