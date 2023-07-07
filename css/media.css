@@ -106,12 +106,21 @@
     padding-right: 25px;
   }
 
+  .section-podcasts {
+    padding-bottom: 92px;
+  }
+
   .section-podcasts::before {
     top: 642px;
   }
 
   .podcastst {
+    padding-top: 104px;
     padding-top: 95px;
+  }
+
+  .broadcast {
+    padding-bottom: 92px;
   }
 
   .broadcast__content-left-top {
@@ -120,10 +129,6 @@
 
   .broadcast__content-left-bottom {
     bottom: 384px;
-  }
-
-  .broadcast {
-    padding-top: 104px;
   }
 
   .broadcast__content-card {
@@ -136,6 +141,19 @@
 
   .broadcast__card:nth-child(odd) {
     margin-right: 30px;
+  }
+
+  .broadcast__content-left-link {
+    margin-bottom: 10px;
+  }
+
+  .guests__title-wrapper {
+    max-width: 536px;
+  }
+
+  .guests__accordion-wrapper {
+    max-width: 540px;
+    min-width: 540px;
   }
 
 }
@@ -383,7 +401,7 @@
 
   .broadcast {
     padding-top: 263px;
-    padding-bottom: 217px;
+    padding-bottom: 218px;
   }
 
   .broadcast__content-left-top {
@@ -401,7 +419,8 @@
   }
 
   .broadcast__content-left-description {
-    padding-left: 90px;
+    padding-left: 80px;
+    max-width: 330px;
   }
 
   .broadcast__content-left-link {
@@ -416,6 +435,10 @@
   .broadcast__content-left-wrapper-icon {
     top: 115px;
     left: 97px;
+  }
+
+  .guests__accordion-link {
+    margin-bottom: 30px;
   }
 
 }
@@ -898,7 +921,7 @@
   .broadcast {
     padding-top: 185px;
     padding-bottom: 0;
-    min-height: 887px;
+    min-height: 888px;
   }
 
   .broadcast__content-left-top {
@@ -990,6 +1013,77 @@
     font-size: 14px;
     line-height: 150%;
     margin-bottom: 70px;
+    padding-left: 90px;
+  }
+
+  .guests {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .guests__title-wrapper {
+    max-width: 100%;
+  }
+
+  .guests__title {
+    font-size: 24px;
+  }
+
+  .guests__subtitle {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .guests__description {
+    font-size: 14px;
+  }
+
+  .guests__content {
+    padding-top: 30px;
+    flex-direction: column;
+  }
+
+  .guests__accordion-wrapper {
+    max-width: 255px;
+    min-width: 255px;
+  }
+
+  .accordion-button {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 16px;
+  }
+
+  .accordion-button::before {
+    width: 26px;
+    height: 26px;
+    top: 9px;
+    right: 1px;
+  }
+
+  .accordion-button::after {
+    width: 10px;
+    height: 10px;
+    right: -4px;
+    top: 15px;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    top: 22px;
+  }
+
+  .guests__accordion-body {
+    padding: 20px 0px 17px 0px;
+  }
+
+  .guests__accordion-link {
+    font-size: 14px;
+    line-height: 110%;
+    letter-spacing: 2px;
+  }
+
+  .guests__accordion-link:nth-last-child(-n + 2) {
+    margin-bottom: 0;
   }
 
 }
