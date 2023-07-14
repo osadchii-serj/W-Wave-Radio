@@ -1,3 +1,9 @@
+const element = document.querySelector(".js-choice")
+
+const choices = new Choices(element, {
+  itemSelectText: "",
+})
+
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("burger").addEventListener("click", function () {
     document.querySelector(".header").classList.toggle("open-menu")
