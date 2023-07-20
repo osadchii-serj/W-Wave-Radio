@@ -156,6 +156,40 @@
     min-width: 540px;
   }
 
+  .playlists__label-1 {
+    order: 1;
+  }
+
+  .playlists__label-2 {
+    order: 3;
+  }
+
+  .playlists__label-3 {
+    order: 5;
+
+  }
+
+  .playlists__label-4 {
+    order: 7;
+  }
+
+  .playlists__label-5 {
+    order: 2;
+  }
+
+  .playlists__label-6 {
+    order: 4;
+  }
+
+  .playlists__label-7 {
+    order: 6;
+
+  }
+
+  .playlists__label-8 {
+    order: 8;
+  }
+
 }
 
 

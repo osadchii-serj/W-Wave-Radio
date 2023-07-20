@@ -1369,7 +1369,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 96px;
 }
 
 .guests__title-wrapper {
@@ -1551,7 +1551,7 @@ p {
   outline: none;
 }
 
-.guests__accordion-link:active{
+.guests__accordion-link:active {
   color: #4F28A5;
   background-color: transparent;
   outline: none;
@@ -1655,4 +1655,108 @@ p {
   background-color: #4F28A5;
   color: #fff;
 }
+
+
+
+/* section-playlists */
+.section-playlists {
+  width: 100%;
+  background-color: #fff;
+}
+
+.playlists {
+  width: 100%;
+}
+
+.playlists__wrapper {
+  padding: 94px 0;
+}
+
+.playlists__wrapper-title {
+  padding-left: 10px;
+}
+
+.playlists___title {
+  color: #121723;
+  font-family: 'MullerRegular';
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+
+.playlists__legend {
+  color: #A1A6B4;
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  line-height: normal;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+.playlists-container {
+  padding-left: 10px;
+}
+
+.playlists__label {
+  display: flex;
+  align-items: center;
+  color: #121723;
+  font-family: 'MullerRegular';
+  font-size: 20px;
+  line-height: normal;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.playlists__input-radio {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  appearance: none;
+}
+
+.playlist__input-text {
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  padding-left: 45px;
+  flex-shrink: 0;
+}
+
+.playlist__input-text::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: border .3s ease-in-out;
+}
+
+.playlist__input-text::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #A1A6B4;
+}
+
+.playlists__input-radio:checked + .playlist__input-text::before {
+  border: 8px solid #6D31EE;
+}
+
+.playlists__input-radio:focus + .playlist__input-text::before {
+  outline: 1px solid #A1A6B4;
+  outline-offset: 3px;
+}
+
+
+
 
