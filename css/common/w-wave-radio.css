@@ -1,0 +1,8 @@
+body {
+    width: 100%;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0px 405px;
+}
