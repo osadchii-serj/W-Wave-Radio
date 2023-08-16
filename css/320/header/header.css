@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+    .header__upper-section {
+        min-height: 54px;
+    }
+
+    .header__central-section {
+        min-height: 50px;
+    }
+
+    .header__lower-section {
+        min-height: 43px;
+    }
+}

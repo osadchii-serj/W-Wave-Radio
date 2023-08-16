@@ -1,0 +1,10 @@
+@media (max-width: 1024px) {
+    .header__upper-section {
+        min-height: 60px;
+        background-color: var(--very-pale-blue);
+    }
+
+    .header__central-section {
+        min-height: 80px;
+    }
+}

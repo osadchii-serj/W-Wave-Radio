@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+}
+
+.header__upper-section {
+    width: 100%;
+    min-height: 20px;
+}
+
+.header__central-section {
+    width: 100%;
+    min-height: 60px;
+}
+
+.header__lower-section {
+    width: 100%;
+    min-height: 58px;
+    border-top: 1px solid var(--gray-background-section);
+    border-bottom: 1px solid var(--gray-background-section);
+}
