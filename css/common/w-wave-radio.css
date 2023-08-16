@@ -6,3 +6,20 @@ body {
     max-width: 1920px;
     padding: 0px 405px;
 }
+
+:root {
+    --text-color: #121723;
+    --granite: #292E39;
+    --gray-window: #A1A6B4;
+    --very-pale-blue: #D2D5DD;
+    --gray-background-section: #E6E8EC;
+    --moderate-greenish-yellow: #BB973E;
+    --pale-yellow: #F0D288;
+    --cobalt-blue: #0039A6;
+    --dark-scarlet: #D52B1E;
+    --active-state: #4F28A5;
+    --default-state: #6D31EE;
+    --hover-focus-state: #AA9DFA;
+    --griddle-pearl: #F5F6F7;
+    --white-background: #FFF;
+}
