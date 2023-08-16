@@ -18,3 +18,7 @@
     border-top: 1px solid var(--gray-background-section);
     border-bottom: 1px solid var(--gray-background-section);
 }
+
+.header__wrapper-logo {
+    padding-top: 10px;
+}

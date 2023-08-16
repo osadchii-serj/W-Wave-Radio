@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .container {
+        padding: 0 114px;
+    }
+
+    .header__wrapper-logo {
+        left: 114px;
+    }
+}

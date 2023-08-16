@@ -1,4 +1,8 @@
-@media (max-width: 1024px) {
+@media (max-width: 320px) {
+    .container {
+        padding: 0 32px;
+    }
+
     .header__upper-section {
         min-height: 54px;
     }
@@ -10,4 +14,15 @@
     .header__lower-section {
         min-height: 43px;
     }
+
+    .header__wrapper-logo {
+        top: 20px;
+        left: 32px;
+    }
+
+    .header__logo {
+        width: 87px;
+        height: 11px;
+    }
+
 }
