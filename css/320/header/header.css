@@ -25,4 +25,46 @@
         height: 11px;
     }
 
+    .header__nav {
+        width: 320px;
+        left: -320px;
+    }
+
+    .header__menu {
+        max-width: 250px;
+        padding: 150px 32px 0px 32px;
+        justify-content: space-between;
+    }
+
+    .header__menu-item {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .header__menu-item-4 {
+        margin-bottom: -20px;
+    }
+
+    .header__menu-item-5 {
+        margin-right: 53px;
+        margin-bottom: -30px;
+    }
+
+    .header__menu::before,
+    .header__menu::after {
+        display: none;
+    }
+
+    .header__search-btn {
+        margin-right: 6px;
+    }
+
+    .header__login-link {
+        position: absolute;
+        right: 32px;
+        top: 8px;
+        width: 70px;
+        padding: 8px 7px;
+    }
+
 }

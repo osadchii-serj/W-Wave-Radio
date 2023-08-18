@@ -23,5 +23,28 @@
     .header__logo {
         width: 112px;
         height: 14px;
+        padding-top: 0;
+    }
+
+    .header__nav {
+        padding-left: 0;
+        padding-right: 30px;
+
+    }
+
+    .header__menu {
+        align-items: center;
+    }
+
+    .header__menu-item {
+        padding-top: 0;
+    }
+
+    .header__wrapper-btn {
+        align-items: center;
+    }
+
+    .header__search-btn {
+        padding-top: 0;
     }
 }
