@@ -61,6 +61,22 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    outline: none;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.header__menu-link:hover {
+    color: var(--default-state);
+}
+
+.header__menu-link:focus {
+    color: var(--white-background);
+    background-color: var(--hover-focus-state);
+}
+
+.header__menu-link:active {
+    color: var(--active-state);
+    background-color: transparent;
 }
 
 .header__wrapper-btn {
@@ -78,6 +94,22 @@
     cursor: pointer;
 }
 
+.header__search-icon path {
+    transition: stroke .3s ease-in-out;
+}
+
+.header__search-btn:hover .header__search-icon path{
+    stroke: var(--hover-focus-state);
+}
+
+.header__search-btn:focus .header__search-icon path{
+    stroke: var(--hover-focus-state);
+}
+
+.header__search-btn:active .header__search-icon path{
+    stroke: var(--active-state);
+}
+
 .header__login-link {
     display: block;
     width: 86px;
@@ -92,6 +124,24 @@
     line-height: normal;
     border-radius: 77px;
     border: 2px solid var(--text-color);
+    outline: none;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.header__login-link:hover {
+    color: var(--white-background);
+    background-color: var(--text-color);
+}
+
+.header__login-link:focus {
+    color: var(--text-color);
+    background-color: var(--hover-focus-state);
+}
+
+.header__login-link:active {
+    color: var(--white-background);
+    background-color: var(--active-state);
+    border-color: transparent;
 }
 
 .burger {
