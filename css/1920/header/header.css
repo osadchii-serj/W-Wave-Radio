@@ -3,8 +3,15 @@
 }
 
 .header__upper-section {
+    position: relative;
     width: 100%;
     min-height: 20px;
+}
+
+.header_position-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .header__central-section {
@@ -17,6 +24,222 @@
     min-height: 58px;
     border-top: 1px solid var(--gray-background-section);
     border-bottom: 1px solid var(--gray-background-section);
+}
+
+.header.header__registration-form-open .header__registration-form {
+    transform: translateY(100%);
+}
+
+.header__registration-form {
+    position: absolute;
+    min-width: 824px;
+    min-height: 655px;
+    top: -775px;
+    padding: 60px;
+    background-color: var(--text-color);
+    transition: transform .3s ease-in-out;
+    z-index: 4;
+}
+
+.header__registration-form-content {
+    position: relative;
+    min-height: inherit;
+    min-width: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__registration-form-close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.header__registration-form-close-icon {
+    width: 42px;
+    height: 42px;
+}
+
+.header__registration-form-close-icon circle,
+.header__registration-form-close-icon path {
+    transition: stroke .3s ease-in-out;
+}
+
+.header__registration-form-close-btn:hover .header__registration-form-close-icon circle {
+    stroke: var(--hover-focus-state);
+}
+
+.header__registration-form-close-btn:hover .header__registration-form-close-icon path {
+    stroke: var(--hover-focus-state);
+}
+
+.header__registration-form-close-btn:focus .header__registration-form-close-icon circle {
+    stroke: var(--hover-focus-state);
+}
+
+.header__registration-form-close-btn:focus .header__registration-form-close-icon path {
+    stroke: var(--hover-focus-state);
+}
+
+.header__registration-form-close-btn:active .header__registration-form-close-icon circle {
+    stroke: var(--active-state);
+}
+
+.header__registration-form-close-btn:active .header__registration-form-close-icon path {
+    stroke: var(--active-state);
+}
+
+.header__registration-form-title {
+    color: var(--white-background);
+    font-family: 'Muller Regular';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 17px;
+}
+
+.header__registration-form-description {
+    color: var(--white-background);
+    font-family: 'Muller Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.header__registration-form-link {
+    color: var(--default-state);
+    font-family: 'Muller Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    transition: color .3s ease-in-out;
+    outline: none;
+}
+
+.header__registration-form-link:hover,
+.header__registration-form-link:focus {
+    color: var(--hover-focus-state);
+}
+
+.header__registration-form-link:active {
+    color: var(--active-state);
+}
+
+.header__registration-form-wrap-input {
+    margin-bottom: 30px;
+}
+
+.header__registration-form-input {
+    width: 526px;
+    height: 70px;
+    padding: 10px 10px 10px 32px;
+    border-radius: 40px;
+    border: 1px solid var(--white-background);
+    outline: none;
+    background-color: transparent;
+    color: var(--gray-window);
+    font-family: 'Muller Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.header__registration-form-input:hover,
+.header__registration-form-input:focus {
+    background-color: var(--granite);
+}
+
+.header__registration-form-input:active {
+    background-color: transparent;
+    color: var(--white-background);
+}
+
+.header__registration-form-login-btn {
+    display: inline-flex;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: var(--default-state);
+    max-width: 167px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--white-background);
+    text-align: center;
+    font-family: 'Muller Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color .3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.header__registration-form-login-btn:hover,
+.header__registration-form-login-btn:focus {
+    background-color: var(--hover-focus-state);
+}
+
+.header__registration-form-login-btn:active {
+    background-color: var(--active-state);
+}
+
+.header__registration-form-text-box {
+    width: 100%;
+    padding: 30px 0;
+    border-top: 1px solid rgba(230, 232, 236, 0.40);
+    color: var(--white-background);
+    color: var(--white, #FFF);
+    font-family: 'Muller Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__registration-form-social-wrapper {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__registration-form-social-link {
+    outline: none;
+}
+
+.header__registration-form-social-link:hover svg g path,
+.header__registration-form-social-link:hover svg rect {
+    fill: var(--hover-focus-state);
+    transition: fill .3s ease-in-out;
+}
+
+.header__registration-form-social-link:focus svg g path,
+.header__registration-form-social-link:focus svg rect {
+    fill: var(--hover-focus-state);
+    transition: fill .3s ease-in-out;
+}
+
+.header__registration-form-social-link:active svg g path,
+.header__registration-form-social-link:active svg rect {
+    fill: var(--active-state);
+    transition: fill .3s ease-in-out;
 }
 
 .header__central-section-inner {
@@ -98,15 +321,15 @@
     transition: stroke .3s ease-in-out;
 }
 
-.header__search-btn:hover .header__search-icon path{
+.header__search-btn:hover .header__search-icon path {
     stroke: var(--hover-focus-state);
 }
 
-.header__search-btn:focus .header__search-icon path{
+.header__search-btn:focus .header__search-icon path {
     stroke: var(--hover-focus-state);
 }
 
-.header__search-btn:active .header__search-icon path{
+.header__search-btn:active .header__search-icon path {
     stroke: var(--active-state);
 }
 
@@ -198,7 +421,7 @@
     .container {
         padding: 0 100px;
     }
-    
+
     .header__nav {
         padding-left: 10px;
         padding-right: 10px;
