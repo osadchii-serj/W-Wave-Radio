@@ -20,7 +20,8 @@
   <header class="header">
     <div class="header__upper-section">
       <div class="container header_position-form">
-        <form action="" class="header__registration-form" id="header-registration-form">
+        <form action="https://jsonplaceholder.typicode.com/posts/" class="header__registration-form"
+          id="header-registration-form">
           <div class="header__registration-form-content">
             <button class="header__registration-form-close-btn" id="form-close-btn">
               <svg class="header__registration-form-close-icon" xmlns="http://www.w3.org/2000/svg" width="42"
@@ -169,7 +170,130 @@
     </div>
     <div class="header__lower-section">
       <div class="container">
-
+        <div class="header__lower-section-inner">
+          <nav class="header__nav-lower">
+            <ul class="header__menu-lower">
+              <li class="header__menu-item-lower">
+                <a href="" class="header__menu-link-lower">
+                  Новости
+                </a>
+              </li>
+              <li class="header__menu-item-lower">
+                <a href="" class="header__menu-link-lower">
+                  Блоги
+                </a>
+              </li>
+              <li class="header__menu-item-lower">
+                <a href="" class="header__menu-link-lower">
+                  Топы
+                </a>
+              </li>
+              <li class="header__menu-item-lower">
+                <a href="" class="header__menu-link-lower">
+                  Опросы
+                </a>
+              </li>
+              <li class="header__menu-item-lower">
+                <a href="" class="header__menu-link-lower">
+                  Рейтинги
+                </a>
+              </li>
+              <li class="header__menu-item-lower">
+                <a href="" class="header__menu-link-lower">
+                  Реклама
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__accordion">
+            <button class="header__accordion-btn">
+              <svg class="header__accordion-btn-icon" width="15" height="15" viewBox="0 0 15 15" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#6D31EE" />
+                <path d="M11.0349 10.3284L10.3277 11.0355L3.96379 4.67156L4.67089 3.96446L11.0349 10.3284Z"
+                  fill="white" />
+                <path d="M4.67089 11.0355L3.96379 10.3284L10.3277 3.96446L11.0349 4.67157L4.67089 11.0355Z"
+                  fill="white" />
+              </svg>
+              Что в эфире?
+            </button>
+            <div class="header__accordion-content">
+              <div class="header__accordion-box">
+                <div class="header__accordion-wrap-icon">
+                  <svg class="header__accordion-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_24531_5430)">
+                      <path
+                        d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
+                        fill="#A1A6B4" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_24531_5430">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="header__accordion-wrap-text">
+                  <p class="header__accordion-title">
+                    Ранее в эфире
+                  </p>
+                  <p class="header__accordion-description">
+                    «Музыка»
+                  </p>
+                </div>
+              </div>
+              <div class="header__accordion-box">
+                <div class="header__accordion-wrap-icon">
+                  <svg class="header__accordion-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_24531_5430)">
+                      <path
+                        d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
+                        fill="#A1A6B4" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_24531_5430">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="header__accordion-wrap-text">
+                  <p class="header__accordion-title">
+                    Сейчас в эфире
+                  </p>
+                  <p class="header__accordion-description">
+                    «Как так?»
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__box-label">
+            <div class="header__circle-icon">
+              <svg class="header__age-icon" width="20" height="9" viewBox="0 0 20 9" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M3.68945 9H2.74023V2.89453C2.74023 2.38672 2.75586 1.90625 2.78711 1.45312C2.70508 1.53516 2.61328 1.62109 2.51172 1.71094C2.41016 1.80078 1.94531 2.18164 1.11719 2.85352L0.601562 2.18555L2.86914 0.433594H3.68945V9ZM12.584 9H6.95312V8.16211L9.20898 5.89453C9.89648 5.19922 10.3496 4.70312 10.5684 4.40625C10.7871 4.10938 10.9512 3.82031 11.0605 3.53906C11.1699 3.25781 11.2246 2.95508 11.2246 2.63086C11.2246 2.17383 11.0859 1.8125 10.8086 1.54688C10.5312 1.27734 10.1465 1.14258 9.6543 1.14258C9.29883 1.14258 8.96094 1.20117 8.64062 1.31836C8.32422 1.43555 7.9707 1.64844 7.58008 1.95703L7.06445 1.29492C7.85352 0.638672 8.71289 0.310547 9.64258 0.310547C10.4473 0.310547 11.0781 0.517578 11.5352 0.931641C11.9922 1.3418 12.2207 1.89453 12.2207 2.58984C12.2207 3.13281 12.0684 3.66992 11.7637 4.20117C11.459 4.73242 10.8887 5.4043 10.0527 6.2168L8.17773 8.05078V8.09766H12.584V9ZM17.0605 4.36523H19.4746V5.17383H17.0605V7.66992H16.2461V5.17383H13.8438V4.36523H16.2461V1.85742H17.0605V4.36523Z"
+                  fill="#A1A6B4" />
+              </svg>
+              <svg class="header__play-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_24531_4513)">
+                  <path
+                    d="M12 2C6.475 2 2 6.475 2 12C2 17.525 6.475 22 12 22C17.525 22 22 17.525 22 12C22 6.475 17.525 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z"
+                    fill="#A1A6B4" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_24531_4513">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
