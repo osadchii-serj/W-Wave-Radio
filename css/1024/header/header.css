@@ -47,4 +47,17 @@
     .header__search-btn {
         padding-top: 0;
     }
+
+    .header__menu-lower {
+        padding-right: 35px;
+    }
+
+    .header__box-label {
+        display: none;
+    }
+
+    .header__accordion {
+        width: 475px;
+        margin-right: 0;
+    }
 }

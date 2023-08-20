@@ -501,6 +501,7 @@
 .header__accordion-btn-icon {
     margin-right: 5px;
     transform: rotate(45deg);
+    transition: transform .3s ease-in-out;
 }
 
 .header__accordion-content {

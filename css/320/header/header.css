@@ -67,4 +67,123 @@
         padding: 8px 7px;
     }
 
+    .header__nav-lower {
+        position: absolute;
+        max-width: 320px;
+        left: -320px;
+        top: 325px;
+        transition: transform .3s ease-in-out;
+        will-change: auto;
+    }
+
+    .header__menu-lower {
+        padding-right: 0;
+        padding: 30px 32px 0 32px;
+    }
+
+    .header.header__menu-lower-open .header__nav-lower {
+        transform: translateX(100%);
+    }
+
+
+    .header__menu-item-lower {
+        margin-right: 35px;
+    }
+
+    .header__menu-item-lower-1 {
+        order: 1;
+    }
+
+    .header__menu-item-lower-4 {
+        order: 2;
+        margin-right: 45px;
+    }
+
+    .header__menu-item-lower-2 {
+        order: 3;
+    }
+
+    .header__menu-item-lower-5 {
+        order: 4;
+    }
+
+    .header__menu-item-lower-3 {
+        order: 5;
+    }
+
+    .header__menu-item-lower-6 {
+        order: 6;
+        margin-right: 40px;
+    }
+
+
+    .header__menu-item-lower {
+        margin-bottom: 30px;
+    }
+
+    .header__box-label {
+        display: none;
+    }
+
+    .header__accordion {
+        display: flex;
+        height: 43px;
+        overflow: hidden;
+        transition: padding-top .3s ease-in-out;
+    }
+
+    .header__accordion-box {
+        flex-direction: column;
+    }
+
+    .header__accordion-content {
+        padding-top: 9px;
+    }
+
+    .header__accordion-wrap-icon {
+        padding: 0;
+        margin-bottom: 6px;
+    }
+
+    .header__accordion-title {
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+
+    .header__accordion-description {
+        font-size: 14px;
+    }
+
+    .header__accordion-box:nth-child(1) {
+        border-left: none;
+    }
+
+    .header__accordion-box:nth-child(2) {
+        border-right: none;
+        padding-left: 35px;
+    }
+
+    .header__accordion-btn {
+        display: flex;
+        background-color: #fff;
+        transition: background-color .3s ease-in-out;
+        will-change: auto;
+    }
+
+    .header.header__accordion-open .header__accordion-btn {
+        background-color: var(--very-pale-blue);
+    }
+
+    .header.header__accordion-open .header__accordion-btn-icon {
+        transform: rotate(90deg);
+    }
+
+    .header.header__accordion-open .header__accordion {
+        overflow: visible;
+        height: fit-content;
+        padding-top: 43px;
+        padding-bottom: 6px;
+        will-change: auto;
+    }
+
 }
