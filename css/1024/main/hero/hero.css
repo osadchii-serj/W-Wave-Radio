@@ -1,0 +1,23 @@
+@media (max-width:1024px) {
+    .hero {
+        padding: 92px 0 114px 0;
+    }
+    
+    .hero__mic-icon {
+        width: 256px;
+        height: 262px;   
+    }
+
+    .hero__wrapper-description {
+        max-width: 539px;
+    }
+
+    .hero__wrap-description {
+        max-width: 539px;
+        margin-bottom: 45px;
+    }
+
+    .hero__wrapper-icon {
+        top: 90px;
+    }
+}

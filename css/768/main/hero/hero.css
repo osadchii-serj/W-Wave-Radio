@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .hero__wrapper-icon {
+        display: none;
+    }
+
+    .hero__wrapper-description {
+        max-width: 100%;
+    }
+}

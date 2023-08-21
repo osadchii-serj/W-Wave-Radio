@@ -8,6 +8,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'MullerMediumItalic';
+    src: url('MullerMediumItalic.eot');
+    src: local('Muller Medium Italic'), local('MullerMediumItalic'),
+        url('MullerMediumItalic.woff2') format('woff2'),
+        url('MullerMediumItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: 'Muller Regular';
@@ -15,6 +25,66 @@
     src: local('Muller Regular'), local('MullerRegular'),
         url('MullerRegular.woff2') format('woff2'),
         url('MullerRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerUltraLightItalic';
+    src: url('MullerUltraLightItalic.eot');
+    src: local('Muller Ultra Light Italic'), local('MullerUltraLightItalic'),
+        url('MullerUltraLightItalic.woff2') format('woff2'),
+        url('MullerUltraLightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller Bold';
+    src: url('MullerBold.eot');
+    src: local('Muller Bold'), local('MullerBold'),
+        url('MullerBold.woff2') format('woff2'),
+        url('MullerBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller Bold Italic';
+    src: url('MullerBoldItalic.eot');
+    src: local('Muller Bold Italic'), local('MullerBoldItalic'),
+        url('MullerBoldItalic.woff2') format('woff2'),
+        url('MullerBoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller Regular Italic';
+    src: url('MullerRegularItalic.eot');
+    src: local('Muller Regular Italic'), local('MullerRegularItalic'),
+        url('MullerRegularItalic.woff2') format('woff2'),
+        url('MullerRegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller Light';
+    src: url('MullerLight.eot');
+    src: local('Muller Light'), local('MullerLight'),
+        url('MullerLight.woff2') format('woff2'),
+        url('MullerLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerLightItalic';
+    src: url('MullerLightItalic.eot');
+    src: local('Muller Light Italic'), local('MullerLightItalic'),
+        url('MullerLightItalic.woff2') format('woff2'),
+        url('MullerLightItalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

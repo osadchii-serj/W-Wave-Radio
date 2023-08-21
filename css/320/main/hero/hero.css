@@ -1,0 +1,28 @@
+@media (max-width: 320px) {
+    .hero {
+        padding: 40px 0 56px 0;
+    }
+
+    .hero__title {
+        margin-bottom: 8px;
+    }
+
+    .hero__title,
+    .hero__title-italics {
+        font-size: 32px;
+    }
+
+    .hero__wrap-description {
+        max-width: 100%;
+        margin-bottom: 36px;
+    }
+
+    .hero__description {
+        font-size: 14px;
+    }
+
+    .hero__link {
+        padding: 17px 45px;
+        font-size: 16px;
+    }
+}
