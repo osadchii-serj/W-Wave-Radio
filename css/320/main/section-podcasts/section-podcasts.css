@@ -1,0 +1,71 @@
+@media (max-width: 320px) {
+    .podcasts {
+        padding: 54px 0;
+    }
+
+    .podcasts__wrapper-title {
+        margin-bottom: 20px;
+    }
+
+    .podcasts__title {
+        font-size: 24px;
+    }
+
+    .podcasts__card {
+        flex-direction: column;
+        width: 256px;
+        max-height: 185px;
+    }
+
+    .podcasts__card-wrapper-img {
+        width: 256px;
+        height: 72%;
+    }
+
+    .podcasts__card-data {
+        left: 0;
+        top: 0;
+    }
+
+    .podcasts__card-content {
+        padding-top: 12px;
+    }
+
+    .podcasts__card-time {
+        margin-bottom: 6px;
+        padding-left: 16px;
+    }
+
+    .podcasts__card-title {
+        font-size: 16px;
+        padding-left: 16px;
+        margin-bottom: 5px;
+    }
+
+    .podcasts__card-author {
+        font-size: 12px;
+        padding-left: 16px;
+        margin-bottom: 16px;
+    }
+
+    .podcasts__card-box {
+        height: 28px;
+    }
+
+    .podcasts__card-play-btn {
+        width: 36px;
+        height: 36px;
+        right: 16px;
+        top: 97px;
+    }
+
+    .podcasts__card-play-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .podcasts__card-icon:nth-child(1) {
+        margin-left: 34px;
+        margin-right: 24px;
+    }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .podcasts__basic {
+        justify-content: center;
+    }
+
+    .podcasts__card {
+        width: 540px;
+    }
+}

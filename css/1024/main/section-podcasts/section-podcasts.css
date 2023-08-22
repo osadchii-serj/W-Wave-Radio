@@ -1,0 +1,5 @@
+@media (max-width: 1024px) {
+    .podcasts__card {
+        width: 396px;
+    }
+}
