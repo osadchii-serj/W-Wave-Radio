@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .broadcast__wrapper-dropdown {
+        max-width: 100%;
+    }
+
+    .broadcast__dropdown-inner {
+        width: 255px;
+    }
+
+    .broadcast__wrapper-cards {
+        padding: 47px 0 60px 0;
+    }
+}

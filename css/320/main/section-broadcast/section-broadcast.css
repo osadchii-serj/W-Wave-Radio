@@ -1,0 +1,42 @@
+@media (max-width: 320px) {
+    .broadcast {
+        padding: 54px 0;
+    }
+
+    .broadcast__card-content {
+        padding: 10px;
+        height: 77px;
+        justify-content: space-between;
+    }
+
+    .broadcast__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .broadcast__author {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .broadcast__wrapper-cards {
+        padding: 30px 0;
+    }
+
+    .broadcast__card {
+        max-width: 113px;
+    }
+
+    .broadcast__card-title {
+        font-size: 12px;
+    }
+
+    .broadcast__card-subtitle {
+        font-size: 9px;
+        margin-bottom: 15px;
+    }
+
+    .broadcast__card-link {
+        font-size: 12px;
+    }
+}

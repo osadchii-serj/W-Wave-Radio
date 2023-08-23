@@ -1,0 +1,9 @@
+@media (max-width: 1024px) {
+    .broadcast__wrapper-cards {
+        max-width: 540px;
+    }
+
+    .broadcast__card:not(:nth-last-child(-n + 2)) {
+        margin-bottom: 30px;
+    }
+}
