@@ -2,4 +2,8 @@
     .podcasts__card {
         width: 396px;
     }
+
+    .podcasts__wrapper-btn {
+        padding-top: 28px;
+    }
 }

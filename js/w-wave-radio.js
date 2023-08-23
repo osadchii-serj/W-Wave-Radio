@@ -22,3 +22,9 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("header").classList.toggle("header__accordion-open")
     })
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("podcasts-btn").addEventListener("click", function() {
+        document.querySelector("main").classList.toggle("podcasts__additional-open")
+    })
+})
