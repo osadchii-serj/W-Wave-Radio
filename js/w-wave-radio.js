@@ -28,3 +28,9 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("main").classList.toggle("podcasts__additional-open")
     })
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("broadcast-dropdown").addEventListener("click", function() {
+        document.querySelector("main").classList.toggle("broadcast__dropdown-open")
+    })
+})

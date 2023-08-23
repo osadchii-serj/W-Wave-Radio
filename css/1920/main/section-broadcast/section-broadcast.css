@@ -1,0 +1,103 @@
+.section-broadcast {
+    width: 100%;
+    height: fit-content;
+}
+
+.broadcast {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 94px 0;
+}
+
+.broadcast__wrapper-dropdown {
+    max-width: 255px;
+    max-height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.broadcast__title {
+    color: var(--text-color);
+    font-family: 'Muller Regular';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 12px;
+}
+
+.broadcast__author {
+    display: block;
+    width: 100%;
+    color: var(--gray-window);
+    font-family: 'Muller Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.broadcast__dropdown-inner {
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+.broadcast__dropdown {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: var(--gray-background-section);
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: var(--text-color);
+    font-family: 'Muller Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    appearance: none;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    will-change: auto;
+}
+
+.broadcast__dropdown:hover {
+    background-color: var(--griddle-pearl);
+}
+
+.broadcast__dropdown:focus {
+    background-color: var(--gray-background-section);
+}
+
+.broadcast__dropdown:active {
+    background-color: var(--very-pale-blue);
+}
+
+.broadcast__dropdown-inner::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 15px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid var(--gray-window);
+    border-left: none;
+    border-top: none;
+    transform: rotate(45deg); 
+    transition: trsnsform .3s ease-in-out;
+    will-change: auto;
+}
+
+.broadcast__dropdown-author {
+    height: 40px;
+}
+
+.main.broadcast__dropdown-open .broadcast__dropdown-inner::before {
+    transform: rotate(225deg);
+}
