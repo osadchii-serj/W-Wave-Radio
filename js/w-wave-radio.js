@@ -34,3 +34,39 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("main").classList.toggle("broadcast__dropdown-open")
     })
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("guests-accordion-header-1").addEventListener("click", function() {
+        document.querySelector("main").classList.toggle("guests__accordion-body-1_open")
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("guests-accordion-header-2").addEventListener("click", function() {
+        document.querySelector("main").classList.toggle("guests__accordion-body-2_open")
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("guests-accordion-header-3").addEventListener("click", function() {
+        document.querySelector("main").classList.toggle("guests__accordion-body-3_open")
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("guests-accordion-header-4").addEventListener("click", function() {
+        document.querySelector("main").classList.toggle("guests__accordion-body-4_open")
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("guests-accordion-header-5").addEventListener("click", function() {
+        document.querySelector("main").classList.toggle("guests__accordion-body-5_open")
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("guests-accordion-header-6").addEventListener("click", function() {
+        document.querySelector("main").classList.toggle("guests__accordion-body-6_open")
+    })
+})
