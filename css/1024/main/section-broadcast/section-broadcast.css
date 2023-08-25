@@ -1,9 +1,28 @@
 @media (max-width: 1024px) {
+    .broadcast {
+        padding: 93px 0;
+    }
+    
     .broadcast__wrapper-cards {
         max-width: 540px;
     }
 
     .broadcast__card:not(:nth-last-child(-n + 2)) {
         margin-bottom: 30px;
+    }
+
+    .broadcast__archive {
+        margin-top: -505px;
+        padding-top: 0;
+    }
+}
+
+
+
+
+@media (max-width: 995px) {
+    .broadcast__archive {
+        margin-top: 0;
+        padding-top: 10px;
     }
 }
