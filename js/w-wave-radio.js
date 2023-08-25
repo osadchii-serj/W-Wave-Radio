@@ -70,3 +70,4 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("main").classList.toggle("guests__accordion-body-6_open")
     })
 })
+
