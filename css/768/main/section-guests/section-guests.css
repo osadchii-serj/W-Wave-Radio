@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .guests {
+        padding-bottom: 96px;
+    }
+    
+    .guests__accordion-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .guests__accordion-body {
+        justify-content: space-between;
+    }
+
+    .main.guests__accordion-body-1_open .guests__accordion-body-1_open,
+    .main.guests__accordion-body-2_open .guests__accordion-body-2_open,
+    .main.guests__accordion-body-3_open .guests__accordion-body-3_open,
+    .main.guests__accordion-body-4_open .guests__accordion-body-4_open,
+    .main.guests__accordion-body-5_open .guests__accordion-body-5_open,
+    .main.guests__accordion-body-6_open .guests__accordion-body-6_open {
+        padding-top: 119px;
+        padding-bottom: 5px;
+    }
+
+    .guests__accordion-link {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .guests__card-wrapper {
+        max-width: 100%;
+    }
+
+    .guests__card-desktop-img,
+    .guests__card-mobile-img {
+        width: 100%;
+    }
+
+    .guests__card-description {
+        width: 398px;
+    }
+}

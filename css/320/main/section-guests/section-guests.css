@@ -1,0 +1,80 @@
+@media (max-width: 320px) {
+    .guests {
+        padding: 54px 0 55px 0;
+    }
+
+    .guests__title-wrapper {
+        margin-bottom: 28px;
+    }
+
+    .guests__title {
+        font-size: 24px;
+    }
+
+    .guests__subtitle {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .guests__description {
+        font-size: 14px;
+    }
+
+    .guests__accordion-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .guests__accordion-body {
+        height: 52px;
+    }
+
+    .main.guests__accordion-body-1_open .guests__accordion-body-1_open,
+    .main.guests__accordion-body-2_open .guests__accordion-body-2_open,
+    .main.guests__accordion-body-3_open .guests__accordion-body-3_open,
+    .main.guests__accordion-body-4_open .guests__accordion-body-4_open,
+    .main.guests__accordion-body-5_open .guests__accordion-body-5_open,
+    .main.guests__accordion-body-6_open .guests__accordion-body-6_open {
+        padding-top: 75px;
+        padding-bottom: 5px;
+    }
+
+    .guests__accordion-header-name {
+        font-size: 16px;
+    }
+
+    .guests__accordion-header-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .guests__accordion-header {
+        height: 52px;
+    }
+
+    .guests__accordion-link {
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .guests__card-description {
+        width: 100%;
+    }
+
+    .guests__card-social-wrapper {
+        padding-top: 4px;
+    }
+
+    .guests__card-social-link {
+        margin-right: 20px;
+    }
+
+    .guests__card-social-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .guests__card-link {
+        width: 147px;
+        height: 32px;
+    }
+}

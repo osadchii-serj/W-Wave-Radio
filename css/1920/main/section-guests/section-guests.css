@@ -84,7 +84,8 @@
 .main.guests__accordion-body-6_open .guests__accordion-body-6_open {
     overflow: visible;
     height: fit-content;
-    padding-top: 135px;
+    padding-top: 119px;
+    padding-bottom: 17px;
 }
 
 .guests__accordion-header {
@@ -93,6 +94,7 @@
     left: 0;
     width: 100%;
     height: 88px;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -176,6 +178,17 @@
     line-height: normal;
     margin-bottom: 16px;
     margin-right: 22px;
+    outline: none;
+    transition: color .3s ease-in-out;
+}
+
+.guests__accordion-link:hover,
+.guests__accordion-link:focus {
+    color: var(--hover-focus-state);
+}
+
+.guests__accordion-link:active {
+    color: var(--active-state);
 }
 
 .guests__card-wrapper {
@@ -196,11 +209,28 @@
     display: flex;
     align-items: center;
     padding-top: 8px;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
+}
+
+.guests__card-social-link {
+    margin-right: 30px;
+}
+
+.guests__card-social-link {
+    outline: none;
 }
 
 .guests__card-social-icon {
-    margin-right: 30px;
+    transition: fill .3s ease-in-out;
+}
+
+.guests__card-social-link:hover .guests__card-social-icon path,
+.guests__card-social-link:focus .guests__card-social-icon path {
+    fill: var(--hover-focus-state);
+}
+
+.guests__card-social-link:active .guests__card-social-icon path {
+    fill: var(--active-state);
 }
 
 .guests__card-title {
@@ -240,6 +270,7 @@
     flex-shrink: 0;
     border-radius: 77px;
     border: 2px solid var(--hover-focus-state);
+    outline: none;
     color: var(--hover-focus-state);
     text-align: center;
     font-family: 'Muller Medium';
@@ -247,6 +278,23 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out, border-color .3s ease-in-out;
+    will-change: auto;
 }
 
-/* TODO! hover */
+.guests__card-link:hover {
+    background-color: var(--hover-focus-state);
+    color: var(--white-background);
+}
+
+.guests__card-link:focus {
+    background-color: var(--default-state);
+    color: var(--white-background);
+    border-color: var(--default-state);
+}
+
+.guests__card-link:active {
+    background-color: var(--active-state);
+    color: var(--white-background);
+    border-color: var(--active-state);
+}

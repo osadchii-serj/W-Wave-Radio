@@ -1,9 +1,25 @@
 @media (max-width: 1024px) {
+    .guests {
+        padding-bottom: 97px;
+    }
+    .guests__description {
+        max-width: 536px;
+    }
+
+    .guests__accordion-wrapper {
+        max-width: 539px;
+    }
+
+    .guests__accordion-link {
+        margin-right: 19px;
+    }
+
     .guests__card-wrapper {
         max-width: 255px;
     }
 
-    .guests__card-desktop-img {
+    .guests__card-mobile-img {
+        object-fit: cover;
         width: 255px;
     }
 }
