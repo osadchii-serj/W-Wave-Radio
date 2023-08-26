@@ -1,0 +1,9 @@
+@media (max-width: 1024px) {
+    .guests__card-wrapper {
+        max-width: 255px;
+    }
+
+    .guests__card-desktop-img {
+        width: 255px;
+    }
+}

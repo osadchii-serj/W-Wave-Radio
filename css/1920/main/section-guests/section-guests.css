@@ -10,6 +10,7 @@
     padding: 94px 0 98px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .guests__title-wrapper {
@@ -79,7 +80,7 @@
 .main.guests__accordion-body-2_open .guests__accordion-body-2_open,
 .main.guests__accordion-body-3_open .guests__accordion-body-3_open,
 .main.guests__accordion-body-4_open .guests__accordion-body-4_open,
-.main.guests__accordion-body-5_open .guests__accordion-body-5_open, 
+.main.guests__accordion-body-5_open .guests__accordion-body-5_open,
 .main.guests__accordion-body-6_open .guests__accordion-body-6_open {
     overflow: visible;
     height: fit-content;
@@ -160,8 +161,8 @@
 .main.guests__accordion-body-2_open .accordion-icon-2,
 .main.guests__accordion-body-3_open .accordion-icon-3,
 .main.guests__accordion-body-4_open .accordion-icon-4,
-.main.guests__accordion-body-5_open .accordion-icon-5, 
-.main.guests__accordion-body-6_open .accordion-icon-6  {
+.main.guests__accordion-body-5_open .accordion-icon-5,
+.main.guests__accordion-body-6_open .accordion-icon-6 {
     transform: rotate(0deg);
 }
 
@@ -176,3 +177,76 @@
     margin-bottom: 16px;
     margin-right: 22px;
 }
+
+.guests__card-wrapper {
+    max-width: 350px;
+}
+
+.guests__card {
+    width: 100%;
+}
+
+.guests__card-desktop-img {
+    object-fit: cover;
+}
+
+.guests__card-social-wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    margin-bottom: 12px;
+}
+
+.guests__card-social-icon {
+    margin-right: 30px;
+}
+
+.guests__card-title {
+    color: var(--white-background);
+    font-family: 'Muller Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.guests__card-description {
+    color: var(--gray-window);
+    font-family: 'Muller Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    margin-bottom: 30px;
+}
+
+.guests__card-link-wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.guests__card-link {
+    display: flex;
+    width: 156px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border-radius: 77px;
+    border: 2px solid var(--hover-focus-state);
+    color: var(--hover-focus-state);
+    text-align: center;
+    font-family: 'Muller Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* TODO! hover */
