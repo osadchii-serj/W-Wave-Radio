@@ -1,15 +1,32 @@
 @media (max-width: 1024px) {
-    .playlists__common-wrap {
+    .playlists__box {
+        width: 100%;
         max-width: 100%;
     }
 
-    /* .playlists__box {
-        flex-direction: row-reverse;
-    } */
+    .playlists__card-box {
+        width: 100%;
+    }
+
+    .playlists__additional-information-box {
+        max-width: 100%;
+    }
+
+    .playlists__buttons-wrap {
+        max-width: 570px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .playlists__label:nth-child(-n + 4) {
+        width: 127px;
+    }
 
     .playlists__label {
-        max-width: 350px;
+        justify-content: flex-start;
     }
+
 
     .playlists__label-1 {
         order: 1;
@@ -42,4 +59,5 @@
     .playlists__label-8 {
         order: 8;
     }
+
 }
