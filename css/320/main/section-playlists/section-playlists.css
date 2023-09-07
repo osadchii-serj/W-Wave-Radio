@@ -90,4 +90,38 @@
     .playlists__label-8 {
         order: 0;
     }
+
+    .playlist__card-box {
+        padding-top: 0;
+    }
+
+    .playlists__card {
+        min-width: 113px;
+        min-height: 159px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .playlists__card-wrap-img {
+        max-width: 113px;
+        max-height: 113px;
+    }
+
+    .playlists__card-wrap-flag {
+        right: 0;
+    }
+
+    .playlists__card-content {
+        min-width: 111px;
+        max-width: 111px;
+        min-height: 46px;
+    }
+
+    .playlists__card-content-title {
+        font-size: 12px;
+    }
+
+    .playlists__card-content-description {
+        font-size: 9px;
+    }
 }

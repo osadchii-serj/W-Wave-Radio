@@ -60,4 +60,37 @@
         order: 8;
     }
 
+    .playlist__card-box {
+        width: 100%;
+    }
+
+    .playlists__card {
+        min-width: 255px;
+        min-height: 112px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .playlists__card-wrap-img {
+        max-width: 112px;
+        max-height: 112px;
+    }
+
+    .playlists__card-wrap-flag {
+        right: 88px;
+    }
+
+    .playlists__card-content {
+        min-width: 142px;
+        min-height: 110px;
+    }
+
+    .playlists__card-content-title {
+        padding-left: 10px;
+    }
+
+    .playlists__card-content-description {
+        padding-left: 10px;
+    }
+
 }

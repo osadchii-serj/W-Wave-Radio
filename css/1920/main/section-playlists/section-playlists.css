@@ -107,7 +107,7 @@
     border-color: var(--default-state);
 }
 
-.playlists__input:checked + .playlists__inner::before {
+.playlists__input:checked+.playlists__inner::before {
     background-color: var(--default-state);
     border-color: var(--default-state);
 }
@@ -122,4 +122,88 @@
     border-radius: 50%;
     background-color: var(--white-background);
     transition: border-color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+
+
+
+
+.playlist__card-box {
+    width: 730px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+
+.playlists__card {
+    min-width: 160px;
+    min-height: 224px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.playlists__card-wrap-img {
+    position: relative;
+    max-width: 160px;
+    max-height: 160px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.playlists__card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.playlists__card-wrap-flag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text-color);
+}
+
+.playlists__card-content {
+    min-width: 158px;
+    max-width: 158px;
+    min-height: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid var(--gray-background-section);
+}
+
+.playlists__card-content-title {
+    color: var(--text-color);
+    font-family: 'Muller Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 4px;
+    padding-left: 16px;
+}
+
+.playlists__card-content-description {
+    color: var(--gray-window);
+    font-family: 'Muller Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 16px;
+}
+
+.playlists__additional-information-box {
+    width: 350px;
+    height: 100px;
 }

@@ -2,4 +2,8 @@
     .playlists__label {
         margin-bottom: 30px;
     }
+
+    .playlist__card-box {
+        padding-top: 20px;
+    }
 }
