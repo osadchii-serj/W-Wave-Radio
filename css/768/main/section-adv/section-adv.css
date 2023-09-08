@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .section-adv {
+        min-height: 1125px;
+    }  
+
+    .adv {
+        min-height: 1073px;
+        padding: 54px 0 92px 0;
+    }
+}

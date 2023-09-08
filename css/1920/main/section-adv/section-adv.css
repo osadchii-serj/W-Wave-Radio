@@ -1,0 +1,13 @@
+.section-adv {
+    width: 100%;
+    min-height: 575px;
+    background-color: var(--granite);
+}
+
+.adv {
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding: 97px 0 133px 0;
+}
