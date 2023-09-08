@@ -13,8 +13,15 @@
         max-height: 474px;
     }
 
-    .adv-wave-img {
+    .adv__wave-img {
         max-height: 474px;
         padding-bottom: 0;
+    }
+
+    .adv__wave-icon {
+        width: 160px;
+        height: 160px;
+        top: 0;
+        left: 0;
     }
 }

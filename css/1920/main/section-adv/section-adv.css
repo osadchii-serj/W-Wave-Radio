@@ -20,8 +20,16 @@
     align-items: center;
 }
 
-.adv-wave-img {
+.adv__wave-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.adv__wave-icon {
+    position: absolute;
+    top: -3px;
+    left: -5px;
+    width: 160px;
+    height: 160px;
 }
