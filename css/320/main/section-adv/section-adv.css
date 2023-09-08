@@ -11,6 +11,7 @@
     .adv__wrap-w-wave {
         max-width: 256px;
         max-height: 225px;
+        margin-bottom: 37px;
     }
 
     .adv__wave-img {
@@ -22,5 +23,40 @@
         height: 62px;
         top: 0;
         left: 0;
+    }
+
+    .adv__description {
+        max-width: 256px;
+    }
+
+    .adv__title {
+        width: 100%;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .adv__description-wave {
+        margin-bottom: 9px;
+    }
+
+    .adv__text-1,
+    .adv__text-2 {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .adv__text-2 {
+        margin-bottom: 0px;
+    }
+
+    .adv__price {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .adv__link {
+        width: 256px;
+        height: 50px;
+        font-size: 16px;
     }
 }

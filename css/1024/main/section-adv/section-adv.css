@@ -24,4 +24,9 @@
         top: 118px;
         left: 0;
     }
+
+    .adv__description {
+        max-width: 396px;
+    }
+
 }
