@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    .playlists {
+        padding-bottom: 36px;
+    }
+    
     .playlists__label {
         margin-bottom: 30px;
     }

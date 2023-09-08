@@ -7,28 +7,13 @@
 .playlists {
     width: 100%;
     height: fit-content;
-    padding: 94px 0;
+    padding: 94px 0 64px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .playlists__box {
-    max-width: 350px;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-}
-
-.playlists__card-box {
-    width: 720px;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.playlists__additional-information-box {
     max-width: 350px;
     height: fit-content;
     display: flex;
@@ -203,7 +188,29 @@
     padding-left: 16px;
 }
 
-.playlists__additional-information-box {
-    width: 350px;
-    height: 100px;
+
+
+
+
+.playlists__note {
+    max-width: 350px;
+    min-height: 162px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -318px;
+    border-top: 1px solid var(--very-pale-blue);
+    padding-top: 38px;
+}
+
+.playlists__note-description {
+    color: var(--gray-window);
+    font-family: 'Muller Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.playlists__note-2021-icon {
+    margin-bottom: 14px;
 }

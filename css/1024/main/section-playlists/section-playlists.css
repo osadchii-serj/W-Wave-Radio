@@ -1,4 +1,7 @@
 @media (max-width: 1024px) {
+    .playlists {
+        padding-bottom: 14px;
+    }
     .playlists__box {
         width: 100%;
         max-width: 100%;
@@ -62,6 +65,7 @@
 
     .playlist__card-box {
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .playlists__card {
@@ -92,6 +96,12 @@
 
     .playlists__card-content-description {
         padding-left: 10px;
+    }
+
+    .playlists__note {
+        margin-top: 0;
+        max-width: 100%;
+        width: 100%;
     }
 
 }

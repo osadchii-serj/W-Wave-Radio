@@ -1,6 +1,6 @@
 @media (max-width: 320px) {
     .playlists {
-        padding: 54px 0;
+        padding: 54px 0 2px 0;
     }
 
     .playlists__title {
@@ -93,6 +93,7 @@
 
     .playlist__card-box {
         padding-top: 0;
+        margin-bottom: 0;
     }
 
     .playlists__card {
@@ -124,5 +125,20 @@
 
     .playlists__card-content-description {
         font-size: 9px;
+    }
+
+    .playlists__note-description {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .playlists__note {
+        padding-top: 27px;
+        min-height: 160px;
+    }
+
+    .playlists__note-2021-icon {
+        width: 98px;
+        height: 15px;
     }
 }
