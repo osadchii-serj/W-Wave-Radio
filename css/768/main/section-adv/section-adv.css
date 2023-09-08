@@ -7,4 +7,14 @@
         min-height: 1073px;
         padding: 54px 0 92px 0;
     }
+
+    .adv__wrap-w-wave {
+        max-width: 540px;
+        max-height: 474px;
+    }
+
+    .adv-wave-img {
+        max-height: 474px;
+        padding-bottom: 0;
+    }
 }

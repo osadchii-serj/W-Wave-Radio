@@ -11,3 +11,17 @@
     justify-content: space-between;
     padding: 97px 0 133px 0;
 }
+
+.adv__wrap-w-wave {
+    position: relative;
+    max-width: 640px;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.adv-wave-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
