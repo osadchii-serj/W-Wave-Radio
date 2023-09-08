@@ -100,6 +100,7 @@
         min-height: 159px;
         flex-wrap: wrap;
         flex-direction: column;
+        margin-bottom: 28px;
     }
 
     .playlists__card-wrap-img {
