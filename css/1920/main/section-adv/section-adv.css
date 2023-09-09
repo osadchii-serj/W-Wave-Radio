@@ -90,6 +90,7 @@
     height: 70px;
     border-radius: 100px;
     border: 2px solid var(--pale-yellow);
+    outline: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,8 +100,36 @@
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out, border-color .3s ease-in-out;
+}
+
+.adv__link:hover {
+    background-color: var(--pale-yellow);
+    color: var(--text-color);
+}
+
+.adv__link:focus {
+    background-color: var(--moderate-greenish-yellow);
+    color: var(--text-color);
+}
+
+.adv__link:focus {
+    background-color: var(--moderate-greenish-yellow);
+    border-color: var(--moderate-greenish-yellow);
 }
 
 .adv__link-icon {
     margin-right: 8px;
+}
+
+.adv__link-icon g path {
+    transition: fill .3s ease-in-out;
+}
+
+.adv__link:hover .adv__link-icon g path:last-child {
+    fill: var(--pale-yellow);
+}
+
+.adv__link:hover .adv__link-icon g path {
+    fill: var(--text-color);
 }
