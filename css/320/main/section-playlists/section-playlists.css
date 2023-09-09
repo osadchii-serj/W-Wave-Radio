@@ -117,6 +117,8 @@
         min-width: 111px;
         max-width: 111px;
         min-height: 46px;
+        border: 1px solid var(--gray-background-section);
+        border-top: none;
     }
 
     .playlists__card-content-title {

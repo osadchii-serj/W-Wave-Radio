@@ -88,6 +88,8 @@
     .playlists__card-content {
         min-width: 142px;
         min-height: 110px;
+        border: 1px solid var(--gray-background-section);
+        border-left: none;
     }
 
     .playlists__card-content-title {
