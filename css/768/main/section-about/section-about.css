@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .section-about {
+        min-height: 1412px;
+    }    
+
+    .about__description-box {
+        flex-direction: column;
+    }
+
+    .about__description {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about__icon-box {
+        max-width: 100%;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+    }
+
+    .about__dawn-icon {
+        width: 112px;
+        height: 112px;
+    }
+
+    .about__spiral-horizontal-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -114px;
+    }
+}

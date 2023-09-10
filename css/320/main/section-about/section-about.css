@@ -1,0 +1,41 @@
+@media (max-width: 320px) {
+    .section-about {
+        min-height: 1000px;
+    }
+    
+    .about {
+        padding: 54px 0;
+    }
+
+    .about__description-box {
+        margin-bottom: 26px;
+    }
+
+    .about__description {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .about__title {
+        font-size: 24px;
+    }
+
+    .about__subtitle {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .about__text {
+        font-size: 14px;
+    }
+
+    .about__icon-box {
+        display: none;
+    }
+
+    .about__dawn-icon,
+    .about__spiral-horizontal-icon {
+        display: none;
+    }
+}
+

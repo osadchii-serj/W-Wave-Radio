@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+    .section-about {
+        min-height: 1152px;
+    }
+
+    .about__description {
+        max-width: 539px;
+    }
+
+    .about__icon-box {
+        height: inherit;
+    }
+
+    .about__spiral-icon-1920 {
+        display: none;
+    }
+}
