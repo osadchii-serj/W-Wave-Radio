@@ -5,6 +5,11 @@
 
     .about__description-box {
         flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .about__slider-box {
+        margin-bottom: 25px;
     }
 
     .about__description {

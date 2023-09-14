@@ -15,7 +15,7 @@
 .about__description-box {
     width: 100%;
     min-height: fit-content;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
     display: flex;
 }
 
@@ -69,4 +69,122 @@
 
 .about__spiral-horizontal-icon {
     display: none;
+}
+
+
+
+
+.about__slider-box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.about__slider-btn-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__swiper-pagination {
+    position: absolute;
+    bottom: -30px;
+    color: var(--white-background);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.about__btn-prev {
+    position: absolute;
+    right: -80px;
+}
+
+.about__btn-next {
+    position: absolute;
+    left: -80px;
+}
+
+.about__slider-btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.about__slider-btn-icon path,
+.about__slider-btn-icon circle {
+    transition: stroke .3s ease-in-out, fill .3s ease-in-out;
+}
+
+.about__slider-btn:hover .about__slider-btn-icon circle {
+    stroke: var(--hover-focus-state);
+}
+
+.about__slider-btn:hover .about__slider-btn-icon path {
+    stroke: var(--hover-focus-state);
+}
+
+.about__slider-btn:active .about__slider-btn-icon circle {
+    fill: var(--hover-focus-state);
+}
+
+.about__slider-btn:active .about__slider-btn-icon path {
+    stroke: var(--white-background);
+}
+
+.about__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__card-img-box {
+    width: 100%;
+    min-height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__card-content {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.about__card-name {
+    width: 100%;
+    display: block;
+    color: var(--white-background);
+    font-family: 'Muller Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.about__card-description {
+    display: block;
+    color: var(--gray-window);
+    font-family: 'Muller Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
 }

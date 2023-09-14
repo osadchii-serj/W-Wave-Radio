@@ -3,6 +3,10 @@
         min-height: 1152px;
     }
 
+    .about__description-box {
+        margin-bottom: 30px;
+    }
+
     .about__description {
         max-width: 539px;
     }
@@ -14,4 +18,13 @@
     .about__spiral-icon-1920 {
         display: none;
     }
+
+    .about__btn-next {
+        left: -70px;
+    }
+
+    .about__btn-prev {
+        right: -70px;
+    }
+
 }

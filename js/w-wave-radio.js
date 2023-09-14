@@ -71,3 +71,33 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 })
 
+let swiper = new Swiper(".about__swiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".about__swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+        prevEl: ".about__btn-next",
+        nextEl: ".about__btn-prev",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1920: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+    },
+  });

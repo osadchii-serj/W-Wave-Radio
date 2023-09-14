@@ -37,5 +37,32 @@
     .about__spiral-horizontal-icon {
         display: none;
     }
+
+    .about__card-img-box {
+        min-height: 113px;
+    }
+
+    .about__card-content {
+        padding-top: 10px;
+    }
+
+    .about__card-name {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .about__card-description {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .about__btn-next,
+    .about__btn-prev {
+        display: none;
+    }
+
+    .about__swiper-pagination {
+        display: none;
+    }
 }
 
