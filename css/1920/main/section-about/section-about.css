@@ -186,5 +186,192 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    
+}
+
+
+
+
+.about__form-box {
+    max-width: 920px;
+    min-height: 394px;
+}
+
+.about__form {
+    max-width: inherit;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__form-textarea {
+    max-width: inherit;
+    min-height: 108px;
+    padding: 30px 10px 10px 32px;
+    border: 1px solid var(--gray-window);
+    border-radius: 30px;
+    outline: none;
+    color: var(--gray-window);
+    font-family: 'Muller Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: transparent;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.about__form-textarea:hover {
+    background-color: rgba(161, 166, 180, .2);
+}
+
+.about__form-textarea:focus {
+    background-color: rgba(161, 166, 180, .2);
+}
+
+.about__form-textarea:active {
+    background-color: transparent;
+    color: var(--white-background);
+}
+
+.about__input-box {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.about__form-input {
+    width: 400px;
+    height: 50px;
+    padding: 10px 10px 10px 32px;
+    border: 1px solid var(--gray-window);
+    border-radius: 40px;
+    background-color: transparent;
+    color: var(--gray-window);
+    font-family: 'Muller Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.about__form-input:hover {
+    background-color: rgba(161, 166, 180, .2);
+}
+
+.about__form-input:focus {
+    background-color: rgba(161, 166, 180, .2);
+}
+
+.about__form-input:active {
+    background-color: transparent;
+    color: var(--white-background);
+}
+
+.about__form-btn-box {
+    max-width: inherit;
+    min-height: 117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__form-btn {
+    width: 212px;
+    height: 70px;
+    border: 1px solid var(--default-state);
+    border-radius: 40px;
+    background-color: var(--default-state);
+    outline: none;
+    color: var(--white-background);
+    font-family: 'Muller Medium';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+}
+
+.about__form-btn:hover {
+    background-color: var(--hover-focus-state);
+}
+
+.about__form-btn:focus {
+    border-color: var(--default-state);
+    background-color: var(--hover-focus-state);
+}
+
+.about__form-btn:active {
+    border-color: var(--active-state);
+    background-color: var(--active-state);
+}
+
+.about__form-label {
+    max-width: 100%;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.about__form-checkbox {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    appearance: none;
+}
+
+.about__form-checkbox-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    max-width: 100%;
+    height: 14px;
+    color: var(--white-background);
+    font-family: 'Muller Medium';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about__form-checkbox-text::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    border: 1px solid var(--white-background);
+}
+
+.about__form-checkbox-text::after {
+    position: absolute;
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='8' viewBox='0 0 10 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.94976 1.08233L4.00002 6.03208L1.17159 3.20365' stroke='%23AA9DFA' stroke-width='2'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    top: 0;
+    left: 1px;
+    z-index: 3;
+    width: 13px;
+    height: 13px;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.about__form-checkbox:checked + .about__form-checkbox-text::after {
+    opacity: 1;
 }

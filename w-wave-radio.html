@@ -2742,13 +2742,32 @@
               </div>
             </div>
           </div>
-          
+          <div class="about__form-box">
+            <form action="https://jsonplaceholder.typicode.com/posts/" class="about__form">
+              <textarea class="about__form-textarea" placeholder="Что скажете?"></textarea>
+              <div class="about__input-box">
+                <input type="text" class="about__form-input" required placeholder="Имя">
+                <input type="email" class="about__form-input" required placeholder="Email">
+              </div>
+              <div class="about__form-btn-box">
+                <button class="about__form-btn" type="submit">
+                  Отправить
+                </button>
+                <label for="about-checkbox" class="about__form-label">
+                  <input class="about__form-checkbox" type="checkbox" name="about-checkbox" id="about-checkbox">
+                  <span class="about__form-checkbox-text">
+                    Согласен на обработку персональных данных
+                  </span>
+                </label>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>
   </main>
   <footer class="footer">
-
+    
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="js/w-wave-radio.js"></script>
