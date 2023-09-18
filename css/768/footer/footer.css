@@ -1,0 +1,37 @@
+@media (max-width:768px) {
+    .footer {
+        min-height: 485px;
+    }    
+
+    .footer__inner-top {
+        flex-direction: column;
+    }
+
+    .footer__logo-wrapper {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .footer__social-icon-wrapper {
+        width: 150px;
+        height: 36px;
+    }
+
+    .footer__social-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer__text-wrapper {
+        width: 100%;
+    }
+
+    .footer__link {
+        margin-bottom: 30px;
+    }
+
+    .footer__inner-bottom {
+        padding-top: 7px;
+    }
+}
