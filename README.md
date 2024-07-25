@@ -5,7 +5,7 @@ Skills - HTML, CSS, JS, Flex.
 Библиотеки - Accordion, Swiper.
 Адаптив - 1920, 1024, 768, 320.
 Кроссбраузерность.
-Симантическая разметка.
+Семантическая разметка.
 Burger-menu, forms.
 
 Посмотреть -  http://w-wave-radio.tw1.ru/
